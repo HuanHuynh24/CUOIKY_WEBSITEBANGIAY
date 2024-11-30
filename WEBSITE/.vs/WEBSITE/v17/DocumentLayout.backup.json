@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "D:\\website new\\WEBSITE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\models\\db_websitebanhangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\models\\db_websitebanhangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|d:\\website new\\website\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,78 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SanPhamController.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Controllers\\SanPhamController.cs",
-              "RelativeDocumentMoniker": "BE\\Controllers\\SanPhamController.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Controllers\\SanPhamController.cs",
-              "RelativeToolTip": "BE\\Controllers\\SanPhamController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxIAAAAZAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\website new\\WEBSITE\\FE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\website new\\WEBSITE\\FE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwCoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:59:03.408Z",
+              "WhenOpened": "2024-11-30T15:20:52.22Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "BE\\WeatherForecast.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\WeatherForecast.cs",
-              "RelativeToolTip": "BE\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:58:26.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "BE\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "BE\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:16:09.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Program.cs",
-              "RelativeDocumentMoniker": "BE\\Program.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Program.cs",
-              "RelativeToolTip": "BE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:11:42.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "db_websitebanhangContext.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Models\\db_websitebanhangContext.cs",
-              "RelativeDocumentMoniker": "BE\\Models\\db_websitebanhangContext.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Models\\db_websitebanhangContext.cs",
-              "RelativeToolTip": "BE\\Models\\db_websitebanhangContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T14:10:47.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\appsettings.json",
-              "RelativeDocumentMoniker": "BE\\appsettings.json",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\appsettings.json",
-              "RelativeToolTip": "BE\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T14:09:18.04Z"
             }
           ]
         }
