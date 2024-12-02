@@ -21,9 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Interface\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>
