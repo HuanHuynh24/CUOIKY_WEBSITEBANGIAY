@@ -13,7 +13,7 @@ namespace BE.Controllers
         {
             _context = context;
         }
-        [HttpGet(Name = "sanpham")]
+        [HttpGet(Name = "sanphamkkk")]
         public async Task <IEnumerable<Sanpham>> Getsanpham()
         {
             return await _context.Sanphams.ToListAsync();

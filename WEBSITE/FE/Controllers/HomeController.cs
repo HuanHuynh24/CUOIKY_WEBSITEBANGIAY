@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FE.Model;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -10,9 +12,31 @@ namespace FE.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+
+
+        public async Task<ActionResult> Index()
         {
-            return View();
+
+            string apiUrl = "http://localhost:5288/api/SanphamH";
+
+            using (HttpClient client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    string data = await response.Content.ReadAsStringAsync();
+
+                    // Deserialize JSON thành danh sách các đối tượng SanPham
+                    List<NhanhieuH> sanPhamList = JsonConvert.DeserializeObject<List<NhanhieuH>>(data);
+
+                    // Truyền danh sách sản phẩm vào View
+                    return View(sanPhamList);
+                }
+                else
+                {
+                    return Content($"Lỗi khi gọi API: {response.StatusCode}");
+                }
+            }
         }
 
         public ActionResult About()
@@ -29,23 +53,6 @@ namespace FE.Controllers
             return View();
         }
 
-        public async Task<ActionResult> CallApiWithoutModel()
-        {
-            string apiUrl = "http://localhost:5288/SanPham";
-
-            using (HttpClient client = new HttpClient())
-            {
-                HttpResponseMessage response = await client.GetAsync(apiUrl);
-                if (response.IsSuccessStatusCode)
-                {
-                    string data = await response.Content.ReadAsStringAsync();
-                    return Content(data); // Dữ liệu dạng thô
-                }
-                else
-                {
-                    return Content($"Lỗi khi gọi API: {response.StatusCode}");
-                }
-            }
-        }
+       
     }
 }
