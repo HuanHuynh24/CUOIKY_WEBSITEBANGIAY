@@ -1,0 +1,45 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Information Pages";
+
+}
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Information</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="category.html">Login/Information</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Contact Area =================-->
+<section class="contact_area section_gap_bottom">
+    <div class="container">
+        <section class="features-area section_gap">
+            <div class="container" style="display: flex;align-items: flex-start;">
+                <div class="tab" style="display: flex;flex-direction: column;width: 150px;margin-right: 60px; margin-top:50px; ">
+                    <button class="" style="padding: 10px; margin-bottom: 5px;cursor: pointer;">Thông tin cá nhân</button>
+                    <button style="padding: 10px; margin-bottom: 5px;cursor: pointer;">Lịch sử mua hàng</button>
+                </div>
+                <div style="display: flex;flex-direction: column; margin-left:20px;">
+                    <h1>Thông Tin Người Dùng</h1>
+                    <p><strong>Tài khoản:</strong> @Model.Taikhoan</p>
+                    <p><strong>Mật khẩu:</strong> @Model.Matkhau</p>
+                    <p><strong>Họ tên:</strong> @Model.Ten</p>
+                    <p><strong>Email:</strong> @Model.Email</p>
+                    <p><strong>Số điện thoại:</strong> @Model.sdt</p>
+                    <p><strong>Địa chỉ:</strong> @Model.Diachi</p>
+                </div>
+            </div>
+        </section>
+        <div class="col-lg-9">
+        </div>
+    </div>
+</section>
+
+
