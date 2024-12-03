@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\website new\\WEBSITE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\repository\\danhmucrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\appsettings.json",
+              "RelativeDocumentMoniker": "BE\\appsettings.json",
+              "ToolTip": "D:\\website new\\WEBSITE\\BE\\appsettings.json",
+              "RelativeToolTip": "BE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T15:18:55.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Program.cs",
               "RelativeDocumentMoniker": "BE\\Program.cs",
               "ToolTip": "D:\\website new\\WEBSITE\\BE\\Program.cs",
               "RelativeToolTip": "BE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:20:42.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "BE\\Controllers\\DanhMucController.cs",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DanhMucRepository.cs",
               "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Repository\\DanhMucRepository.cs",
               "RelativeDocumentMoniker": "BE\\Repository\\DanhMucRepository.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Sanpham.cs",
               "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Models\\Sanpham.cs",
               "RelativeDocumentMoniker": "BE\\Models\\Sanpham.cs",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\website new\\WEBSITE\\FE\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",

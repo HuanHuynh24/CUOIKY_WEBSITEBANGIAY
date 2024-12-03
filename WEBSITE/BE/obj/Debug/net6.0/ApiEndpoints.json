@@ -125,6 +125,22 @@
     "EndpointName": "sanpham"
   },
   {
+    "ContainingType": "BE.Controllers.UsersControllerK",
+    "Method": "GetUser",
+    "RelativePath": "api/UsersControllerK",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Taikhoan",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BE.Controllers.SanPhamController",
     "Method": "Getsanpham",
     "RelativePath": "SanPham",
