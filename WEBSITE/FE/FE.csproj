@@ -513,6 +513,7 @@
     <Content Include="scss\theme\_reset.scss" />
     <Content Include="scss\theme\_variables.scss" />
     <Content Include="Views\Blog\Blog.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -141,6 +141,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BE.Controllers.RegisterController",
+    "Method": "Register",
+    "RelativePath": "Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BE.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BE.Controllers.SanPhamController",
     "Method": "Getsanpham",
     "RelativePath": "SanPham",
