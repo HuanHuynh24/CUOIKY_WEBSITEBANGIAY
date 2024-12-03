@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "D:\\website new\\WEBSITE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|d:\\website new\\website\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\repository\\danhmucrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\repository\\danhmucrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|D:\\website new\\WEBSITE\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Program.cs",
+              "RelativeDocumentMoniker": "BE\\Program.cs",
+              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Program.cs",
+              "RelativeToolTip": "BE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:20:42.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DanhMucController.cs",
+              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Controllers\\DanhMucController.cs",
+              "RelativeDocumentMoniker": "BE\\Controllers\\DanhMucController.cs",
+              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Controllers\\DanhMucController.cs",
+              "RelativeToolTip": "BE\\Controllers\\DanhMucController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:15:47.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DanhMucRepository.cs",
+              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Repository\\DanhMucRepository.cs",
+              "RelativeDocumentMoniker": "BE\\Repository\\DanhMucRepository.cs",
+              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Repository\\DanhMucRepository.cs",
+              "RelativeToolTip": "BE\\Repository\\DanhMucRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:14:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Models\\Sanpham.cs",
+              "RelativeDocumentMoniker": "BE\\Models\\Sanpham.cs",
+              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Models\\Sanpham.cs",
+              "RelativeToolTip": "BE\\Models\\Sanpham.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:34:19.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\website new\\WEBSITE\\FE\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\website new\\WEBSITE\\FE\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FE\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwCoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwB8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:20:52.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T15:20:52.22Z"
             }
           ]
         }
