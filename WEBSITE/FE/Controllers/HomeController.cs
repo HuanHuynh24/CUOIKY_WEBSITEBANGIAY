@@ -39,7 +39,7 @@ namespace FE.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     string data = await response.Content.ReadAsStringAsync();
-                    return Content(data); // Dữ liệu dạng thô
+                    return Content(data);
                 }
                 else
                 {

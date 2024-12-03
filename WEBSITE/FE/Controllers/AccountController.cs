@@ -55,8 +55,10 @@ namespace FE.Controllers
                 if (user != null) {
 					if (user.Matkhau.Equals(Matkhau) && user.Taikhoan.Equals(Taikhoan))
 					{
-						//return RedirectToAction("Information", "Account");
-						return View("Information", user);
+                        //return RedirectToAction("Information", "Account");
+                        Session["UserSession"] = user;
+                        return View("Information", user);
+
 
 					}
 					else
@@ -84,10 +86,16 @@ namespace FE.Controllers
 		{
 			return View();
 		}
-		public ActionResult Information(User user)
-		{
 
-			return View(user);
-		}
-	}
+        public ActionResult Information()
+        {
+            var user = Session["UserSession"] as User;
+            if (user == null)
+            {
+                TempData["EROR"] = "Bạn phải đăng nhập trước.";
+                return RedirectToAction("Login", "Account");
+            }
+            return View(user);
+        }
+    }
 }
