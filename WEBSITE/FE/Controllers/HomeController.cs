@@ -27,7 +27,7 @@ namespace FE.Controllers
                     string data = await response.Content.ReadAsStringAsync();
 
                     // Deserialize JSON thành danh sách các đối tượng SanPham
-                    List<SanphamH> sanPhamList = JsonConvert.DeserializeObject<List<SanphamH>>(data);
+                    List<NhanhieuH> sanPhamList = JsonConvert.DeserializeObject<List<NhanhieuH>>(data);
 
                     // Truyền danh sách sản phẩm vào View
                     return View(sanPhamList);

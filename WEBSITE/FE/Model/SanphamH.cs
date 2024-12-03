@@ -17,8 +17,7 @@ namespace FE.Model
         [JsonProperty("chitietsanpham")]
         public List<ChiTietSanPhamH> ChiTietSanPhamList { get; set; }
 
-        [JsonProperty("nhanhieu")]
-        public string NhanHieu { get; set; }
+       
 
         [JsonProperty("phantramkhuyenmai")]
         public int PhanTramKhuyenMai { get; set; }

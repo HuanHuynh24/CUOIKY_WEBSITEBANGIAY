@@ -147,6 +147,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Model\ChitietsanphamH.cs" />
+    <Compile Include="Model\NhanhieuH.cs" />
     <Compile Include="Model\SanphamH.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -189,6 +190,14 @@
     <Content Include="img\banner\banner-bg.jpg" />
     <Content Include="img\banner\banner-img.png" />
     <Content Include="img\banner\common-banner.jpg" />
+    <Content Include="img\banner\giay-trang-1.jpg" />
+    <Content Include="img\banner\giay-trang-4.png" />
+    <Content Include="img\banner\giay-trang.png" />
+    <Content Include="img\banner\giay-vang.png" />
+    <Content Include="img\banner\giay-xanh-2.png" />
+    <Content Include="img\banner\giay-xanh.jpg" />
+    <Content Include="img\banner\md1-xanh.png" />
+    <Content Include="img\banner\md1.png" />
     <Content Include="img\banner\next.png" />
     <Content Include="img\banner\prev.png" />
     <Content Include="img\blog\add.jpg" />
@@ -282,6 +291,9 @@
     <Content Include="img\l8.jpg" />
     <Content Include="img\login.jpg" />
     <Content Include="img\logo.png" />
+    <Content Include="img\md-2-xanh.png" />
+    <Content Include="img\md1-xanh.png" />
+    <Content Include="img\md1.png" />
     <Content Include="img\men-bg.jpg" />
     <Content Include="img\ob1.jpg" />
     <Content Include="img\ob2.jpg" />
@@ -342,6 +354,33 @@
     <Content Include="img\organic-food\u3.png" />
     <Content Include="img\product\card.jpg" />
     <Content Include="img\product\e-p1.png" />
+    <Content Include="img\product\giay-tim-1.jpg" />
+    <Content Include="img\product\giay-tim-2.png" />
+    <Content Include="img\product\giay-tim-3.jpg" />
+    <Content Include="img\product\giay-trang-1.jpg" />
+    <Content Include="img\product\giay-trang-2.jpg" />
+    <Content Include="img\product\giay-trang-3.jpg" />
+    <Content Include="img\product\giay-trang-4.png" />
+    <Content Include="img\product\giay-trang-5.png" />
+    <Content Include="img\product\giay-trang-6.png" />
+    <Content Include="img\product\giay-trang-7.png" />
+    <Content Include="img\product\giay-trang.png" />
+    <Content Include="img\product\giay-vang-1.png" />
+    <Content Include="img\product\giay-vang-2.png" />
+    <Content Include="img\product\giay-vang-3.jpg" />
+    <Content Include="img\product\giay-vang-4.jpg" />
+    <Content Include="img\product\giay-vang-5.jpg" />
+    <Content Include="img\product\giay-vang-6.jpg" />
+    <Content Include="img\product\giay-vang.png" />
+    <Content Include="img\product\giay-xanh-2.png" />
+    <Content Include="img\product\giay-xanh-3.jpg" />
+    <Content Include="img\product\giay-xanh-4.png" />
+    <Content Include="img\product\giay-xanh-5.png" />
+    <Content Include="img\product\giay-xanh-6.png" />
+    <Content Include="img\product\giay-xanh.jpg" />
+    <Content Include="img\product\md-2-xanh.png" />
+    <Content Include="img\product\md1-xanh.png" />
+    <Content Include="img\product\md1.png" />
     <Content Include="img\product\next.png" />
     <Content Include="img\product\p1.jpg" />
     <Content Include="img\product\p2.jpg" />
@@ -412,6 +451,8 @@
     <Content Include="img\.DS_Store" />
     <Content Include="img\organic-food\.DS_Store" />
     <Content Include="js\.DS_Store" />
+    <Content Include="img\banner\giay-xanh-1.webp" />
+    <Content Include="img\product\giay-tim.webp" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

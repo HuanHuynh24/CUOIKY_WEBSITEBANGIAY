@@ -9,36 +9,37 @@
 
 
 
-                        @model List<FE.Model.SanphamH>
+                        @model List<FE.Model.NhanhieuH>
 
                         <!-- single-slide -->
-                        @for (var sp = 0; sp < Model.Count && sp < 5; sp++) // Giới hạn chỉ lấy tối đa 5 sản phẩm
+                        @for (var i = 0; i < Model.Count && i < 3; i++) 
                         {
-                            var chiTiet = Model[sp].ChiTietSanPhamList?.FirstOrDefault(); // Lấy chi tiết đầu tiên hoặc null
+                            var sp = Model[i].sanphamList?.FirstOrDefault();
+                            var ct = sp.ChiTietSanPhamList?.FirstOrDefault();
                             <div class="row single-slide">
                                 <div class="col-lg-5 ">
                                     <div class="banner-content">
                                         <h1>
-                                            @Model[sp].TenSanPham -
-                                            @if (chiTiet != null)
+                                            @sp.TenSanPham -
+                                            
+                                            @if (ct != null)
                                             {
-                                                @chiTiet.TenMau
+                                                @ct.TenMau
                                                 }
-                                            <br>Collection!
+                                           
                                         </h1>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                                            @sp.MoTa
                                         </p>
                                         <div class="add-bag d-flex align-items-center">
                                             <a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-                                            <span class="add-text text-uppercase">Add to Bag</span>
+                                            <span class="add-text text-uppercase">Thêm vào giỏ hàng</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="banner-img">
-                                        <img class="img-fluid" src="img/banner/banner-img.png" alt="">
+                                        <img class="img-fluid" src="~/img/banner/@(ct.HinhAnh)" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -66,40 +67,40 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-features">
                         <div class="f-icon">
-                            <img src="img/features/f-icon1.png" alt="">
+                            <img src="~/img/features/f-icon1.png" alt="">
                         </div>
-                        <h6>Free Delivery</h6>
-                        <p>Free Shipping on all order</p>
+                        <h6>Free Shipping</h6>
+                        <p>Miễn phí ship trên mọi đơn</p>
                     </div>
                 </div>
                 <!-- single features -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-features">
                         <div class="f-icon">
-                            <img src="img/features/f-icon2.png" alt="">
+                            <img src="~/img/features/f-icon2.png" alt="">
                         </div>
-                        <h6>Return Policy</h6>
-                        <p>Free Shipping on all order</p>
+                        <h6>Chính sách đổi/trả hàng</h6>
+                        <p>Đảm bảo sự minh bạch và công bằng</p>
                     </div>
                 </div>
                 <!-- single features -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-features">
                         <div class="f-icon">
-                            <img src="img/features/f-icon3.png" alt="">
+                            <img src="~/img/features/f-icon3.png" alt="">
                         </div>
                         <h6>24/7 Support</h6>
-                        <p>Free Shipping on all order</p>
+                        <p>Hỗ trợ tận tình, nhanh chóng</p>
                     </div>
                 </div>
                 <!-- single features -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-features">
                         <div class="f-icon">
-                            <img src="img/features/f-icon4.png" alt="">
+                            <img src="~/img/features/f-icon4.png" alt="">
                         </div>
-                        <h6>Secure Payment</h6>
-                        <p>Free Shipping on all order</p>
+                        <h6>Thanh toán an toàn</h6>
+                        <p>Đảm bảo sự minh bạch và uy tín</p>
                     </div>
                 </div>
             </div>
@@ -115,8 +116,8 @@
                         <div class="col-lg-8 col-md-8">
                             <div class="single-deal">
                                 <div class="overlay"></div>
-                                <img class="img-fluid w-100" src="img/category/c1.jpg" alt="">
-                                <a href="img/category/c1.jpg" class="img-pop-up" target="_blank">
+                                <img class="img-fluid w-100" src="~/img/category/c1.jpg" alt="">
+                                <a href="~/img/category/c1.jpg" class="img-pop-up" target="_blank">
                                     <div class="deal-details">
                                         <h6 class="deal-title">Sneaker for Sports</h6>
                                     </div>
@@ -126,8 +127,8 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="single-deal">
                                 <div class="overlay"></div>
-                                <img class="img-fluid w-100" src="img/category/c2.jpg" alt="">
-                                <a href="img/category/c2.jpg" class="img-pop-up" target="_blank">
+                                <img class="img-fluid w-100" src="~/img/category/c2.jpg" alt="">
+                                <a href="~/img/category/c2.jpg" class="img-pop-up" target="_blank">
                                     <div class="deal-details">
                                         <h6 class="deal-title">Sneaker for Sports</h6>
                                     </div>
@@ -137,8 +138,8 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="single-deal">
                                 <div class="overlay"></div>
-                                <img class="img-fluid w-100" src="img/category/c3.jpg" alt="">
-                                <a href="img/category/c3.jpg" class="img-pop-up" target="_blank">
+                                <img class="img-fluid w-100" src="~/img/category/c3.jpg" alt="">
+                                <a href="~/img/category/c3.jpg" class="img-pop-up" target="_blank">
                                     <div class="deal-details">
                                         <h6 class="deal-title">Product for Couple</h6>
                                     </div>
@@ -148,8 +149,8 @@
                         <div class="col-lg-8 col-md-8">
                             <div class="single-deal">
                                 <div class="overlay"></div>
-                                <img class="img-fluid w-100" src="img/category/c4.jpg" alt="">
-                                <a href="img/category/c4.jpg" class="img-pop-up" target="_blank">
+                                <img class="img-fluid w-100" src="~/img/category/c4.jpg" alt="">
+                                <a href="~/img/category/c4.jpg" class="img-pop-up" target="_blank">
                                     <div class="deal-details">
                                         <h6 class="deal-title">Sneaker for Sports</h6>
                                     </div>
@@ -161,8 +162,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-deal">
                         <div class="overlay"></div>
-                        <img class="img-fluid w-100" src="img/category/c5.jpg" alt="">
-                        <a href="img/category/c5.jpg" class="img-pop-up" target="_blank">
+                        <img class="img-fluid w-100" src="~/img/category/c5.jpg" alt="">
+                        <a href="~/img/category/c5.jpg" class="img-pop-up" target="_blank">
                             <div class="deal-details">
                                 <h6 class="deal-title">Sneaker for Sports</h6>
                             </div>
@@ -176,358 +177,80 @@
     <!-- start product Area -->
     <section class="owl-carousel active-product-area section_gap">
         <!-- single product slide -->
-        <div class="single-product-slider">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <div class="section-title">
-                            <h1>Latest Products</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore
-                                magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p1.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
+       
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
+        @foreach (var nh in Model)
+        {
+            <div class="single-product-slider">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <div class="section-title">
+                                <h1>@nh.tenNhanHieu</h1>
                             </div>
                         </div>
                     </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p2.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p3.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p4.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p5.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p6.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p7.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p8.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row">
+                        <!-- single product -->
+
+                        @{
+                            foreach (var sp in nh.sanphamList)
+                            {
+                                foreach (var ct in sp.ChiTietSanPhamList)
+                                {
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="single-product">
+                                            <img class="img-fluid" src="~/img/product/@ct.HinhAnh" alt="">
+                                            <div class="product-details">
+                                                <h6>
+                                                    @sp.TenSanPham - @ct.TenMau
+                                                </h6>
+                                                <div class="price">
+                                                    <h6>@((ct.Gia - ct.Gia * ((decimal)sp.PhanTramKhuyenMai / 100)).ToString("F2"))</h6>
+
+
+                                                    <h6 class="l-through">$@ct.Gia</h6>
+                                                </div>
+                                                <div class="prd-bottom">
+
+                                                    <a href="" class="social-info">
+                                                        <span class="ti-bag"></span>
+                                                        <p class="hover-text">Giỏ hàng</p>
+                                                    </a>
+
+                                                    <a href="" class="social-info">
+                                                        <span class="lnr lnr-move"></span>
+                                                        <p class="hover-text">view more</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        }
+                        <!-- single product -->
+
                     </div>
                 </div>
             </div>
-        </div>
+        }
+
         <!-- single product slide -->
-        <div class="single-product-slider">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <div class="section-title">
-                            <h1>Coming Products</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore
-                                magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- single product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="single-product">
-                            <img class="img-fluid" src="img/product/p6.jpg" alt="">
-                            <div class="product-details">
-                                <h6>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h6>
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <div class="prd-bottom">
 
-                                    <a href="" class="social-info">
-                                        <span class="ti-bag"></span>
-                                        <p class="hover-text">add to bag</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-heart"></span>
-                                        <p class="hover-text">Wishlist</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-sync"></span>
-                                        <p class="hover-text">compare</p>
-                                    </a>
-                                    <a href="" class="social-info">
-                                        <span class="lnr lnr-move"></span>
-                                        <p class="hover-text">view more</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single product -->
-                </div>
-            </div>
-        </div>
+
+
+
+
+
+
+
     </section>
     <!-- end product Area -->
     <!-- Start exclusive deal Area -->
@@ -566,41 +289,56 @@
                 <div class="col-lg-6 no-padding exclusive-right">
                     <div class="active-exclusive-product-slider">
                         <!-- single exclusive carousel -->
-                        <div class="single-exclusive-slider">
-                            <img class="img-fluid" src="img/product/e-p1.png" alt="">
-                            <div class="product-details">
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <h4>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h4>
-                                <div class="add-bag d-flex align-items-center justify-content-center">
-                                    <a class="add-btn" href=""><span class="ti-bag"></span></a>
-                                    <span class="add-text text-uppercase">Add to Bag</span>
-                                </div>
-                            </div>
-                        </div>
+
+                        @{
+                            var max = Model[0].sanphamList[0];
+                            var value = max.PhanTramKhuyenMai;
+                            foreach (var nh in Model)
+                            {
+                                foreach (var sp in nh.sanphamList)
+                                {
+                                    if (sp.PhanTramKhuyenMai >= value)
+                                    {
+                                        value = sp.PhanTramKhuyenMai;
+                                    }
+                                }
+
+                            }
+                            foreach (var nh in Model)
+                            {
+                                foreach (var sp in nh.sanphamList)
+                                {
+                                    if (sp.PhanTramKhuyenMai == value)
+                                    {
+                                        foreach(var ct in sp.ChiTietSanPhamList)
+                        {
+                                                <div class="single-exclusive-slider">
+                                                    <img class="img-fluid" src="~/img/product/@ct.HinhAnh" alt="">
+                                                    <div class="product-details">
+                                                        <div class="price">
+                                                            <h6>$@((ct.Gia - ct.Gia * ((decimal)sp.PhanTramKhuyenMai / 100)).ToString("F2"))</h6>
+                                                            <h6 class="l-through">$@sp.ChiTietSanPhamList[0].Gia</h6>
+                                                        </div>
+                                                        <h4>
+                                                            @sp.TenSanPham
+                                                        </h4>
+                                                        <div class="add-bag d-flex align-items-center justify-content-center">
+                                                            <a class="add-btn" href=""><span class="ti-bag"></span></a>
+                                                            <span class="add-text text-uppercase">Thêm vào giỏ hàng</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                        }
+                                        
+                                    }
+                                }
+
+                            }
+
+                        }
+
                         <!-- single exclusive carousel -->
-                        <div class="single-exclusive-slider">
-                            <img class="img-fluid" src="img/product/e-p1.png" alt="">
-                            <div class="product-details">
-                                <div class="price">
-                                    <h6>$150.00</h6>
-                                    <h6 class="l-through">$210.00</h6>
-                                </div>
-                                <h4>
-                                    addidas New Hammer sole
-                                    for Sports person
-                                </h4>
-                                <div class="add-bag d-flex align-items-center justify-content-center">
-                                    <a class="add-btn" href=""><span class="ti-bag"></span></a>
-                                    <span class="add-text text-uppercase">Add to Bag</span>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -631,142 +369,7 @@
     </section>
     <!-- End brand Area -->
     <!-- Start related-product Area -->
-    <section class="related-product-area section_gap_bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
-                    <div class="section-title">
-                        <h1>Deals of the Week</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r1.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r2.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r3.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r5.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r6.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r7.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r9.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r10.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="single-related-product d-flex">
-                                <a href="#"><img src="img/r11.jpg" alt=""></a>
-                                <div class="desc">
-                                    <a href="#" class="title">Black lace Heels</a>
-                                    <div class="price">
-                                        <h6>$189.00</h6>
-                                        <h6 class="l-through">$210.00</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="ctg-right">
-                        <a href="#" target="_blank">
-                            <img class="img-fluid d-block mx-auto" src="img/category/c5.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <!-- End related-product Area -->
     
 </main>

@@ -1430,13 +1430,36 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
     visibility: visible; }
 
+.banner-img .img-fluid {
+    transform: translateY(0px);
+    animation: float ease-in-out 2s infinite;
+}
+.single-product:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: all ease-in .4s;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0); /* Vị trí ban đầu */
+    }
+
+    50% {
+        transform: translateY(-20px); /* Dịch lên trên 20px */
+    }
+
+    100% {
+        transform: translateY(0); /* Quay về vị trí ban đầu */
+    }
+}
 /* end category area css
 ============================================================================================ */
 /* start product area css
 ============================================================================================ */
 .active-product-area {
-  padding-top: 70px;
-  padding-bottom: 50px; }
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
   .active-product-area .owl-nav div {
     position: absolute;
     left: 35%;
@@ -1501,11 +1524,21 @@ h1, h2, h3, h4, h5, h6 {
       .active-product-area .owl-nav .owl-next {
         margin-top: -20px;
         right: 28%; } }
-
+.row.single-slide{
+    margin-top:140px;
+}
 .single-product {
-  margin-bottom: 50px; }
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    transform: scale3d(1, 1, 1);
+    transition: padding ease-in-out .3s, transform ease-in-out .3s;
+}
   .single-product img {
-    margin-bottom: 20px;
+  flex:1;
+  object-fit:contain;
     width: 100%; }
   .single-product .product-details h6 {
     font-size: 16px;
