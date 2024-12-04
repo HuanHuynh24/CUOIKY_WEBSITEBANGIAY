@@ -1,31 +1,43 @@
 using BE.Models;
-using BE.Repository;
+using BE.Model;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IUserRepositoryK, UserRepositoryK>();
-builder.Services.AddDbContext<db_websitebanhangContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
+// Đăng ký DbContextFactory với phạm vi (Scoped)
+builder.Services.AddDbContextFactory<db_websitebanhangContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-builder.Services.AddScoped<SanphamH>();
+// Đăng ký repository với Dependency Injection
+builder.Services.AddScoped<ThongkedoanhthuRepositoryADONET>();
 
-builder.Services.AddScoped<DanhMucRepository>();
+// Cấu hình CORS để cho phép tất cả các nguồn gốc
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", policy =>
+    {
+        policy.AllowAnyOrigin()  // Cho phép tất cả các nguồn gốc
+              .AllowAnyMethod()  // Cho phép tất cả các phương thức HTTP
+              .AllowAnyHeader(); // Cho phép tất cả các header
+    });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Cấu hình môi trường phát triển và sản xuất cho Swagger
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Sử dụng CORS trước khi các middleware khác
+app.UseCors("AllowAllOrigins");
 
 app.UseAuthorization();
 

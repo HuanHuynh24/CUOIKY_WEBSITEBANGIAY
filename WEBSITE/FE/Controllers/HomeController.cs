@@ -8,10 +8,12 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace FE.Controllers
 {
     public class HomeController : Controller
     {
+        private static readonly HttpClient client = new HttpClient();
 
 
         public async Task<ActionResult> Index()
@@ -53,6 +55,58 @@ namespace FE.Controllers
             return View();
         }
 
-       
+
+        public async Task<ActionResult> Chitietsanpham(string masanpham, int macolor, int masize)
+        {
+            // Đảm bảo chuỗi mã sản phẩm không vượt quá 8 ký tự
+            masanpham = masanpham.Length > 8 ? masanpham.Substring(0, 8) : masanpham;
+
+            // Gửi yêu cầu GET đến API
+            var response = await client.GetAsync($"http://localhost:5288/api/chitietsanpham/chitietsanpham?masanpham={masanpham}&color={macolor}&size={masize}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                
+                // Đọc dữ liệu JSON từ API
+                var json = await response.Content.ReadAsStringAsync();
+
+                // Deserialize JSON thành dynamic để xử lý dữ liệu
+                dynamic data = JsonConvert.DeserializeObject(json);
+
+                // Kiểm tra và lấy thông tin sản phẩm
+                var sanpham = data?.data?.chitietSanpham?.maSanphamNavigation;
+                var chitiet = data?.data?.chitietSanpham;
+                var reviews = data?.data?.reviews;
+                List<danhgia> danhGiaList = new List<danhgia>();
+                if (reviews != null)
+                {
+                    // Chuyển từ dynamic thành List<DanhGia>
+                    danhGiaList = JsonConvert.DeserializeObject<List<danhgia>>(reviews.ToString());
+                    ViewBag.danhgial = danhGiaList;
+                }
+
+                ViewBag.tensanpham = sanpham?.tenSanpham;
+                ViewBag.mota = sanpham?.moTa;
+                ViewBag.gia = chitiet.gia;
+                ViewBag.masapham = sanpham.maSanpham;
+
+
+                // Trả về View với thông tin sản phẩm
+                return View();
+
+            }
+
+            // Trường hợp yêu cầu không thành công
+            return HttpNotFound();
+        }
+
+
+        public ActionResult Search(string masanpham)
+        {
+            return View();
+
+        }
+
+
     }
 }

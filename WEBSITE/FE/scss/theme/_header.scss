@@ -201,6 +201,7 @@
 
 #search_input_box {
 	position: fixed;
+	display:flex !important;
 	left: 50%;
 	@include transform(translateX(-50%));
 	width: 100%;
