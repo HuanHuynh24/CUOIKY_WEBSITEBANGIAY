@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE", "BE\BE.csproj", "{667CA3B9-4238-4B62-B89F-BE77B09D7D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FE_webgiay", "FE_webgiay\FE_webgiay.csproj", "{C4C473D5-4729-4287-8201-2A48D282941A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{667CA3B9-4238-4B62-B89F-BE77B09D7D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667CA3B9-4238-4B62-B89F-BE77B09D7D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667CA3B9-4238-4B62-B89F-BE77B09D7D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667CA3B9-4238-4B62-B89F-BE77B09D7D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C473D5-4729-4287-8201-2A48D282941A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C473D5-4729-4287-8201-2A48D282941A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C473D5-4729-4287-8201-2A48D282941A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C473D5-4729-4287-8201-2A48D282941A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1941305D-3ACD-48FD-928B-DD2FD10F7D85}
+	EndGlobalSection
+EndGlobal

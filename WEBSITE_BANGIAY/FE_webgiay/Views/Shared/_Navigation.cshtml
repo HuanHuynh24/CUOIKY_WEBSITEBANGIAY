@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div class="sidebar pe-4 pb-3">
+        <nav class="navbar bg-light navbar-light">
+            <a href="index.html" class="navbar-brand mx-4 mb-3">
+                <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>Web Giày</h3>
+            </a>
+            <div class="d-flex align-items-center ms-4 mb-4">
+                <div class="position-relative">
+                    <img class="rounded-circle" src="~/img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                    <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                </div>
+                <div class="ms-3">
+                    <h6 class="mb-0">Bá Huân</h6>
+                    <span>Admin</span>
+                </div>
+            </div>
+            <div class="navbar-nav w-100">
+                <a asp-controller="Home" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Bảng điều khiển</a>
+                <!-- Quản lý Danh mục -->
+                <a asp-controller="DanhMuc" class="nav-item nav-link"><i class="fa fa-tags me-2"></i>QL danh mục</a>
+                <!-- Quản lý Nhãn hiệu -->
+                <a asp-controller="NhanHieu" class="nav-item nav-link"><i class="fa fa-industry me-2"></i>QL nhãn hiệu</a>
+                <!-- Quản lý Khuyến mãi -->
+                <a asp-controller="KhuyenMai" class="nav-item nav-link"><i class="fa fa-gift me-2"></i>QL khuyến mãi</a>
+
+                <!-- Quản lý Sản phẩm -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-box me-2"></i>QL sản phẩm</a>
+                    <div class="dropdown-menu bg-transparent border-0">
+                        <a asp-controller="SanPham" class="dropdown-item">Danh sách sản phẩm</a>
+                        <a href="size.html" class="dropdown-item">Size</a>
+                        <a href="color.html" class="dropdown-item">Color</a>
+                        <a asp-controller="ChiTietSanPham" class="dropdown-item">Chi tiết sản phẩm</a>
+                    </div>
+                </div>
+                <!-- Đơn đặt hàng -->
+                <a asp-controller="HoaDon" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Đơn đặt hàng</a>
+
+                <!-- Quản lý blog -->
+                <a href="blog.html" class="nav-item nav-link"><i class="far fa-file-alt me-2"></i>QL blog</a>
+
+            </div>
+        </nav>
+    </div>
+}

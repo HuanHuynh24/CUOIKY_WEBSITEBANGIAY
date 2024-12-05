@@ -1,0 +1,38 @@
+﻿@model FE_webgiay.Models.Nhanhieu
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<h5 class="text-center">Chỉnh sửa Thương hiệu</h5>
+<div class="col-md-9">
+    <form asp-action="Edit" asp-controller="NhanHieu" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <!-- Cột trái -->
+            <div class="col-md-6">
+                <div class="form-group mb-4">
+                    <label>Mã thương hiệu</label>
+                    <input asp-for="MaNhan" class="form-control" />
+                    <span asp-validation-for="MaNhan" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-4">
+                    <label>Tên thương hiệu</label>
+                    <input asp-for="TenNhan" class="form-control" />
+                    <span asp-validation-for="TenNhan" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4 mt-5 text-start">
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

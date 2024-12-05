@@ -1,0 +1,136 @@
+﻿@using FE_webgiay.Models
+@model Sanpham
+@{
+    ViewData["title"] = "Sản Phẩm";
+}
+@* <div class="col-sm-12 col-xl-6">
+    <div class="bg-light rounded h-100 p-4">
+        <h6 class="mb-4">Floating Label</h6>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput"
+                   placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword"
+                   placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating mb-3">
+            <select class="form-select" id="floatingSelect"
+                    aria-label="Floating label select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <label for="floatingSelect">Works with selects</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here"
+                      id="floatingTextarea" style="height: 150px;"></textarea>
+            <label for="floatingTextarea">Comments</label>
+        </div>
+        <div class="mb-3">
+            <label for="formFileSm" class="form-label">Small file input example</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+    </div>
+</div> *@
+<h5 class="text-center">Danh Sách Sản Phẩm</h5>
+<div class="col-md-9">
+    <form enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <!-- Cột trái -->
+            <div class="col-md-6">
+                <div class="form-group mb-4">
+                    <label>Mã sản phẩm</label>
+                    <input asp-for="MaSanpham" class="form-control" />
+                    <span asp-validation-for="MaSanpham" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Tên sản phẩm</label>
+                    <input asp-for="TenSanpham" class="form-control" />
+                    <span asp-validation-for="TenSanpham" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Mô tả</label>
+                    <textarea asp-for="MoTa" class="form-control"></textarea>
+                    <span asp-validation-for="MoTa" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Lượt yêu thích</label>
+                    <input asp-for="SoLuongyeuthich" class="form-control" />
+                    <span asp-validation-for="SoLuongyeuthich" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Cột phải -->
+            <div class="col-md-6">
+                <div class="form-group mb-4">
+                    <label>Thương hiệu</label>
+                    <select asp-for="MaNhan" asp-items="ViewBag.MaNhan" class="form-control">
+                        <option value="">-- Chọn thương hiệu --</option>
+                    </select>
+                    <span asp-validation-for="MaNhan" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Danh mục</label>
+                    <select asp-for="MaDanhmuc" asp-items="ViewBag.MaDanhmuc" class="form-control">
+                        <option value="">-- Chọn danh mục --</option>
+                    </select>
+                    <span asp-validation-for="MaDanhmuc" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Khuyến mãi</label>
+                    <select asp-for="MaKhuyenmai" asp-items="ViewBag.MaKhuyenmai" class="form-control">
+                        <option value="">-- Chọn khuyến mãi --</option>
+                    </select>
+                    <span asp-validation-for="MaKhuyenmai" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4 mt-5 text-end">
+                    <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Tên</th>
+            <th scope="col">Mô tả</th>
+            <th scope="col">Lượt yêu thích</th>
+            <th scope="col">Thương hiệu</th>
+            <th scope="col">Danh mục</th>
+            <th scope="col">Khuyến mãi</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>
+                @*  asp-route-Id="@item.Id" *@
+                <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="SanPham">Edit</a>
+                <a asp-action="Delete" class="btn btn-danger btn-sm" asp-controller="SanPham">Delete</a>
+            </td>
+        </tr>
+    
+    </tbody>
+</table>

@@ -1,0 +1,20 @@
+﻿@model FE_webgiay.Models.Nhanhieu
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+<h5 class="text-center text-danger">Xác nhận xoá thương hiệu</h5>
+<p>Bạn có chắc chắn muốn xoá thương hiệu <strong>@Model.TenNhan</strong> không?</p>
+
+<form asp-action="Delete" asp-route-id="@Model.MaNhan" method="post">
+    <button type="submit" class="btn btn-danger">Xoá</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

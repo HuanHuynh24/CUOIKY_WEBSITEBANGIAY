@@ -1,0 +1,66 @@
+﻿@model FE_webgiay.Models.NhanHieuViewModel
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+<h5 class="text-center">Thương hiệu</h5>
+<div class="col-md-9">
+    <form asp-action ="Create" asp-controller="NhanHieu" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <!-- Cột trái -->
+            <div class="col-md-6">
+                <div class="form-group mb-4">
+                    <label>Mã thương hiệu</label>
+                    <input asp-for="NewNhanHieu.MaNhan" class="form-control" />
+                    <span asp-validation-for="NewNhanHieu.MaNhan" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-4">
+                    <label>Tên thương hiệu</label>
+                    <input asp-for="NewNhanHieu.TenNhan" class="form-control" />
+                    <span asp-validation-for="NewNhanHieu.TenNhan" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4 mt-5 text-start">
+                    <button type="submit" class="btn btn-primary">Thêm thương hiệu</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="col-sm-12 col-xl-8">
+    <div class="bg-light rounded h-100 p-4">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Mã thương hiệu</th>
+                    <th scope="col">Tên thương hiệu</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.NhanHieus)
+                {
+                    <tr>
+                        <td>@item.MaNhan</td>
+                        <td>@item.TenNhan</td>
+                        <td>
+                            <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="NhanHieu" asp-route-id="@item.MaNhan">Edit</a>
+                            <a asp-action="Delete" class="btn btn-danger btn-sm" asp-controller="NhanHieu" asp-route-id="@item.MaNhan">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

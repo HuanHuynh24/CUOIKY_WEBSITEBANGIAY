@@ -1,0 +1,102 @@
+﻿@using FE_webgiay.Models
+@model IEnumerable<ChiTietSanPhamViewModel>
+@{
+}
+@* <h5 class="text-center">Chi Tiết Sản Phẩm</h5>
+<div class="col-md-9">
+    <form enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <!-- Cột trái -->
+            <div class="col-md-6">
+                <div class="form-group mb-4">
+                    <label>Mã chi tiết sản phẩm</label>
+                    <input asp-for="IdChitietSp" class="form-control" />
+                    <span asp-validation-for="IdChitietSp" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Tên</label>
+                    <select asp-for="MaSanphamNavigation.TenSanpham" asp-items="ViewBag.TenSanpham" class="form-control">
+                        <option value="">-- Chọn tên sản phẩm --</option>
+                    </select>
+                    <span asp-validation-for="MaSanphamNavigation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Giá</label>
+                    <input asp-for="Gia" class="form-control" />
+                    <span asp-validation-for="Gia" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Số lượng</label>
+                    <input asp-for="SoLuongTon" class="form-control" />
+                    <span asp-validation-for="SoLuongTon" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Cột phải -->
+            <div class="col-md-6">
+                <div class="form-group mb-4">
+                    <label>Hình ảnh</label>
+                    <input asp-for="HinhAnh" class="form-control" />
+                    <span asp-validation-for="HinhAnh" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Size</label>
+                    <select asp-for="MaSizeNavigation" asp-items="ViewBag.MaDanhmuc" class="form-control">
+                        <option value="">-- Chọn kích thước --</option>
+                    </select>
+                    <span asp-validation-for="MaSizeNavigation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label>Màu</label>
+                    <select asp-for="MaMauNavigation" asp-items="ViewBag.MaKhuyenmai" class="form-control">
+                        <option value="">-- Chọn màu --</option>
+                    </select>
+                    <span asp-validation-for="MaSizeNavigation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4 mt-5 text-end">
+                    <button type="submit" class="btn btn-primary">Thêm chi tiết sản phẩm</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div> *@
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Tên</th>
+            <th scope="col">Giá</th>
+            <th scope="col">Số lượng</th>
+            <th scope="col">Hình ảnh</th>
+            <th scope="col">Size</th>
+            <th scope="col">Màu</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaChiTietSP</td>
+                <td>@item.TenSP</td>
+                <td>@item.GiaSP</td>
+                <td>@item.SoLuong</td>
+                <td><img src="@item.HinhAnhSP" width="120" /></td>
+                <td>@item.SizeSP</td>
+                <td>@item.MauSP</td>
+                <td>
+                    <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="ChiTietSanPham" asp-route-id="@item.MaChiTietSP">Edit</a>
+                    <a asp-action="Delete" class="btn btn-danger btn-sm" asp-controller="ChiTietSanPham" asp-route-id="@item.MaChiTietSP">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
