@@ -20,6 +20,8 @@ builder.Services.AddScoped<ThongkedoanhthuRepositoryADONET>();
 builder.Services.AddScoped<SanphamH>();
 //Vĩ Khương
 builder.Services.AddScoped<IUserRepositoryK, UserRepositoryK>();
+builder.Services.AddScoped<BlogKRepository>();
+builder.Services.AddScoped<CommentKRepository>();
 //Bá Huân
 builder.Services.AddScoped<DanhMucRepository>();
 builder.Services.AddScoped<ThuongHieuRepository>();
@@ -38,6 +40,9 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader(); // Cho phép tất cả các header
     });
 });
+
+builder.Services.AddScoped<BlogKRepository>();
+builder.Services.AddScoped<CommentKRepository>();
 
 var app = builder.Build();
 

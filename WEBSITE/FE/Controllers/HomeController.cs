@@ -27,12 +27,8 @@ namespace FE.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     string data = await response.Content.ReadAsStringAsync();
-
-                    // Deserialize JSON thành danh sách các đối tượng SanPham
-                    List<NhanhieuH> sanPhamList = JsonConvert.DeserializeObject<List<NhanhieuH>>(data);
-
-                    // Truyền danh sách sản phẩm vào View
-                    return View(sanPhamList);
+                    List<NhanhieuH> sanphamList = JsonConvert.DeserializeObject<List<NhanhieuH>>(data);
+                    return View(sanphamList);
                 }
                 else
                 {
