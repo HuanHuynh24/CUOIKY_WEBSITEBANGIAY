@@ -18,6 +18,10 @@ builder.Services.AddCors(p => p.AddPolicy("MyCors", builder =>
 builder.Services.AddScoped<DanhMucRepository>();
 builder.Services.AddScoped<ThuongHieuRepository>();
 builder.Services.AddScoped<KhuyenMaiRepository>();
+builder.Services.AddScoped<TrangThaiRepository>();
+builder.Services.AddScoped<ColorRepository>();
+builder.Services.AddScoped<SizeRepository>();
+builder.Services.AddScoped<SanPhamRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

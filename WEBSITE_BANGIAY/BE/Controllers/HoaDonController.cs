@@ -29,11 +29,13 @@ namespace BE.Controllers
                 .Include(h => h.IdTrangthaiNavigation) // Join với bảng Trangthai
                 .Select(h => new
                 {
-                    OrderNo = h.MaHoadon,
-                    CustomerName = h.TaikhoanNavigation.Ten,
-                    Total = h.TongTien,
-                    Status = h.IdTrangthaiNavigation.TenTrangthai,
-                    OrderDate = h.NgayTao,
+                    MaHoaDon = h.MaHoadon,
+                    TenKhachHang = h.TaikhoanNavigation.Ten,
+                    DiaChiHD = h.DiaChi,
+                    TongTienHD = h.TongTien,
+                    TrangThai = h.IdTrangthaiNavigation.TenTrangthai,
+                    NgayTaoHD = h.NgayTao,
+                    NgayGiaoHD = h.NgayGiao
                     //UpdateStatus = "Update" // Static button text
                 })
                 .ToListAsync();
@@ -60,13 +62,7 @@ namespace BE.Controllers
                     GiaSP = cthd.IdChitietSpNavigation.Gia, // Giá đơn vị
                     SoLuongSP = cthd.SoLuong, // Số lượng
                     Mau = cthd.IdChitietSpNavigation.MaMauNavigation.TenMau, // Tên màu
-                    /*Dimensions = new
-                    {
-                        Length = cthd.IdChitietSpNavigation.MaSizeNavigation.Chieudai,
-                        Width = cthd.IdChitietSpNavigation.MaSizeNavigation.Chieurong,
-                        Height = cthd.IdChitietSpNavigation.MaSizeNavigation.Chieucao
-                    }, // Kích thước*/
-                    KichThuoc = cthd.IdChitietSpNavigation.MaMauNavigation,
+                    KichThuoc = cthd.IdChitietSpNavigation.MaSize,
                     KhuyenMai = cthd.IdChitietSpNavigation.MaSanphamNavigation.MaKhuyenmaiNavigation.PhanTram, // Phần trăm khuyến mãi
                     TongGia = (cthd.IdChitietSpNavigation.Gia * cthd.SoLuong) -
                                 ((cthd.IdChitietSpNavigation.Gia * cthd.SoLuong) *
@@ -121,7 +117,7 @@ namespace BE.Controllers
         }*/
 
 
-        [HttpPut("UpdateStatus")]
+        /*[HttpPut("UpdateStatus")]
         public async Task<IActionResult> UpdateOrderStatus(string maHoadon, int newStatusId)
         {
             if (string.IsNullOrEmpty(maHoadon))
@@ -158,6 +154,25 @@ namespace BE.Controllers
             {
                 return StatusCode(500, new { message = "Lỗi trong quá trình cập nhật.", error = ex.Message });
             }
+        }*/
+
+        [HttpPost("UpdateStatus")]
+        public async Task<IActionResult> UpdateStatus([FromBody] UpdateStatusModel model)
+        {
+            var hoaDon = await _context.Hoadons.FindAsync(model.MaHoaDon);
+            if (hoaDon == null)
+            {
+                return NotFound(new { message = "Không tìm thấy hóa đơn." });
+            }
+
+            // Cập nhật thông tin
+            hoaDon.NgayGiao = DateTime.Parse(model.MaHoaDon);
+            hoaDon.IdTrangthai = model.TrangThai;
+
+            _context.Hoadons.Update(hoaDon);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Cập nhật trạng thái thành công." });
         }
     }
 }
