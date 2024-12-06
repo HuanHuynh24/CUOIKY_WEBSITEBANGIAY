@@ -1,0 +1,131 @@
+/* Chi tiet san pham*/
+.product_image_area {
+    padding-top: 0px;
+}
+
+.button_soluong {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    .input-wrapper .input-text {
+        width: 50px;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+.s_product_text p {
+    margin-bottom: 40px;
+}
+
+.input-wrapper button {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+    .input-wrapper button i {
+        font-size: 18px;
+    }
+
+.button_soluong {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 500px;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    .input-wrapper .input-text {
+        width: 50px;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    .input-wrapper button {
+        padding: 10px;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+
+        .input-wrapper button i {
+            font-size: 18px;
+        }
+
+.star i {
+    color: gray; /* Màu của sao chưa chọn */
+    cursor: pointer;
+}
+
+    .star i.filled {
+        color: gold; /* Màu của sao đã chọn */
+    }
+
+
+
+
+/*search*/
+
+
+.chitietsanpham{
+    margin-top:100px ;
+}
+.divsearch{
+    width:90vw;
+    height:600px;
+    min-height:max-content;
+    margin:50px auto;
+
+}
+
+
+
+
+

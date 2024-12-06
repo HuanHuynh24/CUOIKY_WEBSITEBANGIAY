@@ -300,3 +300,117 @@ F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Newton
 F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Antlr3.Runtime.pdb
 F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.CopyComplete
+D:\website new\WEBSITE\FE\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\website new\WEBSITE\FE\bin\System.IO.Pipelines.dll
+D:\website new\WEBSITE\FE\bin\System.Text.Encodings.Web.dll
+D:\website new\WEBSITE\FE\bin\System.Text.Json.dll
+D:\website new\WEBSITE\FE\bin\System.ValueTuple.dll
+D:\website new\WEBSITE\FE\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\website new\WEBSITE\FE\bin\System.IO.Pipelines.xml
+D:\website new\WEBSITE\FE\bin\System.Text.Encodings.Web.xml
+D:\website new\WEBSITE\FE\bin\System.Text.Json.xml
+D:\website new\WEBSITE\FE\bin\System.ValueTuple.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\FE.dll.config
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\FE.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\FE.pdb
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\csc.exe
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\csc.exe.config
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\csc.rsp
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\csi.exe
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\csi.exe.config
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\csi.rsp
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.Managed.Core.targets
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.AppContext.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Collections.Immutable.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Console.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Globalization.Calendars.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.IO.Compression.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.IO.FileSystem.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Net.Http.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Net.Sockets.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Reflection.Metadata.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.ValueTuple.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Xml.XmlDocument.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Xml.XPath.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\vbc.exe
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\vbc.exe.config
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\vbc.rsp
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\VBCSCompiler.exe
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\roslyn\VBCSCompiler.exe.config
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Antlr3.Runtime.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Microsoft.Web.Infrastructure.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Newtonsoft.Json.Bson.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Newtonsoft.Json.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Buffers.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.IO.Pipelines.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Memory.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Net.Http.Formatting.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Numerics.Vectors.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Text.Encodings.Web.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Text.Json.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Threading.Tasks.Extensions.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.ValueTuple.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Helpers.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Mvc.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Optimization.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Razor.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.WebPages.Deployment.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.WebPages.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.WebPages.Razor.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\WebGrease.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Newtonsoft.Json.Bson.pdb
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Newtonsoft.Json.Bson.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Buffers.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.IO.Pipelines.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Memory.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Net.Http.Formatting.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Numerics.Vectors.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Text.Encodings.Web.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Text.Json.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Threading.Tasks.Extensions.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.ValueTuple.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Helpers.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Mvc.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Optimization.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.Razor.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.WebPages.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.WebPages.Deployment.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\System.Web.WebPages.Razor.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Newtonsoft.Json.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Antlr3.Runtime.pdb
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.AssemblyReference.cache
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.CoreCompileInputs.cache
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.dll
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.pdb
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.Up2Date

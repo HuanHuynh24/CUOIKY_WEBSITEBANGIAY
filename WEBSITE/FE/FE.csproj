@@ -165,6 +165,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Model\ChitietsanphamH.cs" />
+    <Compile Include="Model\danhgia.cs" />
     <Compile Include="Model\NhanhieuH.cs" />
     <Compile Include="Model\SanphamH.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -188,6 +189,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="css\availability-calendar.css" />
+    <Content Include="css\tam.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\ion.rangeSlider.css" />
@@ -431,6 +433,7 @@
     <Content Include="img\sd\c3.jpg" />
     <Content Include="img\sd\c4.jpg" />
     <Content Include="img\sd\c5.jpg" />
+    <Content Include="js\chitietsanpham.js" />
     <Content Include="js\countdown.js" />
     <Content Include="js\gmaps.min.js" />
     <Content Include="js\ion.rangeSlider.js" />
@@ -513,6 +516,8 @@
     <Content Include="scss\theme\_reset.scss" />
     <Content Include="scss\theme\_variables.scss" />
     <Content Include="Views\Blog\Blog.cshtml" />
+    <Content Include="Views\Home\Chitietsanpham.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -12,9 +12,10 @@ namespace BE.Repository
             _context = context;
         }
 
-        public async Task<IEnumerable<Object>> getAllSanphams()
+        public async Task<IEnumerable<object>> getAllSanphams()
         {
 
+          
             var nhanHieus = await _context.Nhanhieus
     .Include(nh => nh.Sanphams) 
         .ThenInclude(sp => sp.Chitietsanphams)
