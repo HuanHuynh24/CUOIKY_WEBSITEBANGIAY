@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FE.Model;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -10,9 +12,27 @@ namespace FE.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+
+
+        public async Task<ActionResult> Index()
         {
-            return View();
+
+            string apiUrl = "http://localhost:5288/api/SanphamH";
+
+            using (HttpClient client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                if (response.IsSuccessStatusCode)
+                {
+                    string data = await response.Content.ReadAsStringAsync();
+                    List<NhanhieuH> sanphamList = JsonConvert.DeserializeObject<List<NhanhieuH>>(data);
+                    return View(sanphamList);
+                }
+                else
+                {
+                    return Content($"Lỗi khi gọi API: {response.StatusCode}");
+                }
+            }
         }
 
         public ActionResult About()
@@ -29,23 +49,6 @@ namespace FE.Controllers
             return View();
         }
 
-        public async Task<ActionResult> CallApiWithoutModel()
-        {
-            string apiUrl = "http://localhost:5288/SanPham";
-
-            using (HttpClient client = new HttpClient())
-            {
-                HttpResponseMessage response = await client.GetAsync(apiUrl);
-                if (response.IsSuccessStatusCode)
-                {
-                    string data = await response.Content.ReadAsStringAsync();
-                    return Content(data);
-                }
-                else
-                {
-                    return Content($"Lỗi khi gọi API: {response.StatusCode}");
-                }
-            }
-        }
+       
     }
 }

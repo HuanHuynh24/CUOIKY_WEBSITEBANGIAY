@@ -1,4 +1,5 @@
 using BE.Models;
+using BE.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserRepositoryK, UserRepositoryK>();
 builder.Services.AddDbContext<db_websitebanhangContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+
+
+builder.Services.AddScoped<SanphamH>();
+
+builder.Services.AddScoped<DanhMucRepository>();
+
+builder.Services.AddScoped<BlogKRepository>();
+builder.Services.AddScoped<CommentKRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

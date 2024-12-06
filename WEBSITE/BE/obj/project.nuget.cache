@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ormLuLd3ETrTlPs02E2vOyG/Xji2elalF9oCe1sw9Ml9z5lqLW8S6DtlaawR9Sv8Q1Ldgtus070RF7/B0fN0Gg==",
+  "dgSpecHash": "LwxJ1sOelcUonY3PAVPGyPnTFV+rLCUz4wIrxVRfpCKGK2atVZeyqAw1vhwqQ1PxzGF4iBdatr9QR2Q8G23n7w==",
   "success": true,
-  "projectFilePath": "D:\\124\\C#\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\BE.csproj",
+  "projectFilePath": "D:\\124\\CUOIKY_WEBSITEBANGIAY2\\WEBSITE\\BE\\BE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vikhu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vikhu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",

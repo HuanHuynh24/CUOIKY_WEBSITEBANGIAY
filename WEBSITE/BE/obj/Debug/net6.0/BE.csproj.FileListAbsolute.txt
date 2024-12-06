@@ -135,3 +135,221 @@ D:\124\C#\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.IO.Pipelines.
 D:\124\C#\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\124\C#\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Text.Json.dll
 D:\124\C#\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\appsettings.Development.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\appsettings.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\BE.exe
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\BE.deps.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\BE.runtimeconfig.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\BE.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\BE.pdb
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Humanizer.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.IO.Pipelines.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Text.Json.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.AssemblyReference.cache
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.GeneratedMSBuildEditorConfig.editorconfig
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.AssemblyInfoInputs.cache
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.AssemblyInfo.cs
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.CoreCompileInputs.cache
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.MvcApplicationPartsAssemblyInfo.cs
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.MvcApplicationPartsAssemblyInfo.cache
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.sourcelink.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.build.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.development.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.BE.Microsoft.AspNetCore.StaticWebAssets.props
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.build.BE.props
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BE.props
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BE.props
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.pack.json
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\scopedcss\bundle\BE.styles.css
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.CopyComplete
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\refint\BE.dll
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.pdb
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\BE.genruntimeconfig.cache
+F:\12024\LTWNC\BTAP_CUOIKYWEBBANGIAY\CUOIKY_WEBSITEBANGIAY\WEBSITE\BE\obj\Debug\net6.0\ref\BE.dll
+D:\website new\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\website new\WEBSITE\BE\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\website new\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\website new\WEBSITE\BE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\website new\WEBSITE\BE\bin\Debug\net6.0\System.Text.Json.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\appsettings.Development.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\appsettings.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\BE.exe
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\BE.deps.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\BE.runtimeconfig.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\BE.pdb
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Humanizer.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Text.Json.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.AssemblyReference.cache
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.AssemblyInfoInputs.cache
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.AssemblyInfo.cs
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.CoreCompileInputs.cache
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.MvcApplicationPartsAssemblyInfo.cs
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.MvcApplicationPartsAssemblyInfo.cache
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.sourcelink.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.build.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.development.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.BE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.build.BE.props
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BE.props
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BE.props
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.pack.json
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\scopedcss\bundle\BE.styles.css
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.CopyComplete
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\refint\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.pdb
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\BE.genruntimeconfig.cache
+D:\124\CUOIKY_WEBSITEBANGIAY - Copy\WEBSITE\BE\obj\Debug\net6.0\ref\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\appsettings.Development.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\appsettings.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\BE.exe
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\BE.deps.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\BE.runtimeconfig.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\BE.pdb
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Humanizer.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Text.Json.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.AssemblyReference.cache
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.AssemblyInfoInputs.cache
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.AssemblyInfo.cs
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.CoreCompileInputs.cache
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.MvcApplicationPartsAssemblyInfo.cs
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.MvcApplicationPartsAssemblyInfo.cache
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.sourcelink.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.build.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.development.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.BE.Microsoft.AspNetCore.StaticWebAssets.props
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.build.BE.props
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BE.props
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BE.props
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\staticwebassets.pack.json
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\scopedcss\bundle\BE.styles.css
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.csproj.CopyComplete
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\refint\BE.dll
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.pdb
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\BE.genruntimeconfig.cache
+D:\124\CUOIKY_WEBSITEBANGIAY2\WEBSITE\BE\obj\Debug\net6.0\ref\BE.dll

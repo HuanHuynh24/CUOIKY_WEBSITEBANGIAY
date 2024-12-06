@@ -1,8 +1,9 @@
 ﻿@model User
 @{
     ViewData["Title"] = "Information Pages";
-
 }
+
+<!-- Banner Area -->
 <section class="banner-area organic-breadcrumb">
     <div class="container">
         <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
@@ -17,29 +18,54 @@
     </div>
 </section>
 <!-- End Banner Area -->
-<!--================Contact Area =================-->
+<!-- Contact Area -->
 <section class="contact_area section_gap_bottom">
     <div class="container">
         <section class="features-area section_gap">
-            <div class="container" style="display: flex;align-items: flex-start;">
-                <div class="tab" style="display: flex;flex-direction: column;width: 150px;margin-right: 60px; margin-top:50px; ">
-                    <button class="" style="padding: 10px; margin-bottom: 5px;cursor: pointer;">Thông tin cá nhân</button>
-                    <button style="padding: 10px; margin-bottom: 5px;cursor: pointer;">Lịch sử mua hàng</button>
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col-lg-3 col-md-4">
+                    <div class="list-group">
+                        <button class="list-group-item list-group-item-action active">Thông tin cá nhân</button>
+                        <button class="list-group-item list-group-item-action">Lịch sử mua hàng</button>
+                    </div>
                 </div>
-                <div style="display: flex;flex-direction: column; margin-left:20px;">
-                    <h1>Thông Tin Người Dùng</h1>
-                    <p><strong>Tài khoản:</strong> @Model.Taikhoan</p>
-                    <p><strong>Mật khẩu:</strong> @Model.Matkhau</p>
-                    <p><strong>Họ tên:</strong> @Model.Ten</p>
-                    <p><strong>Email:</strong> @Model.Email</p>
-                    <p><strong>Số điện thoại:</strong> @Model.sdt</p>
-                    <p><strong>Địa chỉ:</strong> @Model.Diachi</p>
+
+                <!-- User Information -->
+                <div class="col-lg-9 col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="mb-0">Thông Tin Người Dùng</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-sm-4 text-secondary font-weight-bold">Tài khoản:</div>
+                                <div class="col-sm-8">@Model.Taikhoan</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 text-secondary font-weight-bold">Mật khẩu:</div>
+                                <div class="col-sm-8">@Model.Matkhau</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 text-secondary font-weight-bold">Họ tên:</div>
+                                <div class="col-sm-8">@Model.Ten</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 text-secondary font-weight-bold">Email:</div>
+                                <div class="col-sm-8">@Model.Email</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 text-secondary font-weight-bold">Số điện thoại:</div>
+                                <div class="col-sm-8">@Model.sdt</div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 text-secondary font-weight-bold">Địa chỉ:</div>
+                                <div class="col-sm-8">@Model.Diachi</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <div class="col-lg-9">
-        </div>
     </div>
 </section>
-
-

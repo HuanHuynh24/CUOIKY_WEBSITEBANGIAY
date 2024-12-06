@@ -2799,11 +2799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\124\\C#\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\BE.csproj",
+      "projectUniqueName": "D:\\124\\CUOIKY_WEBSITEBANGIAY2\\WEBSITE\\BE\\BE.csproj",
       "projectName": "BE",
-      "projectPath": "D:\\124\\C#\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\BE.csproj",
+      "projectPath": "D:\\124\\CUOIKY_WEBSITEBANGIAY2\\WEBSITE\\BE\\BE.csproj",
       "packagesPath": "C:\\Users\\vikhu\\.nuget\\packages\\",
-      "outputPath": "D:\\124\\C#\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\obj\\",
+      "outputPath": "D:\\124\\CUOIKY_WEBSITEBANGIAY2\\WEBSITE\\BE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

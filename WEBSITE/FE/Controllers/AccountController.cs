@@ -23,7 +23,7 @@ namespace FE.Controllers
 			[HttpPost]
 		public async Task<ActionResult> GetUser(string Taikhoan,string Matkhau)
 		{
-			var url = $"http://localhost:5288/api/UsersControllerK?Taikhoan={Taikhoan}";
+            var url = $"http://localhost:5288/api/UsersControllerK?Taikhoan={Taikhoan}";
 			if (string.IsNullOrEmpty(Taikhoan) || string.IsNullOrEmpty(Matkhau))
 			{
 				 TempData["EROR"] ="Tài khoản hoặc mật khẩu không được để trống.";
@@ -86,6 +86,12 @@ namespace FE.Controllers
 		{
 			return View();
 		}
+        public ActionResult Logout()
+        {
+            Session.Clear(); 
+            Session.Abandon(); 
+            return RedirectToAction("Login", "Account");
+        }
 
         public ActionResult Information()
         {
@@ -95,6 +101,7 @@ namespace FE.Controllers
                 TempData["EROR"] = "Bạn phải đăng nhập trước.";
                 return RedirectToAction("Login", "Account");
             }
+
             return View(user);
         }
     }
