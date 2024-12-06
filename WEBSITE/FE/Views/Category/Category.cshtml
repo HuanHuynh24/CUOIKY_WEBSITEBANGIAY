@@ -1,0 +1,467 @@
+﻿@{
+    ViewBag.Title = "Category";
+}
+<main>
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>Shop Category page</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="#">Shop<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="category.html">Fashon Category</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-5">
+                <div class="sidebar-categories">
+                    <div class="head">DANH MỤC LOẠI GIÀY</div>
+                    <ul class="main-categories">
+                        @foreach (var category in Model.DanhMucs)
+                        {
+                            <li class="main-nav-list">
+                                <a href="javascript:void(0)" class="category-link" data-id="@category.MaDanhMuc">
+                                    <span class="lnr lnr-arrow-right"></span>@category.TenDanhMuc
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="sidebar-filter mt-50">
+                    <div class="top-filter-head">Bộ lọc sản phẩm</div>
+                    <div class="common-filter">
+                        <div class="head">Thương hiệu</div>
+                        <form action="#">
+                            <ul>
+                                @foreach (var brand in Model.Brands)
+                                {
+                                    <li class="filter-list">
+                                        <input class="pixel-radio" type="radio" id="@brand.MaNhan" name="brand" value="@brand.MaNhan">
+                                        <label for="@brand.MaNhan">@brand.TenNhan</label>
+                                    </li>
+                                }
+                            </ul>
+                        </form>
+                    </div>
+
+                    <div class="common-filter">
+                        <div class="head">Màu sắc</div>
+                        <form action="#">
+                            <ul>
+                                @foreach (var color in Model.Colors)
+                                {
+                                    <li class="filter-list">
+                                        <input class="pixel-radio" type="radio" id="@color.MaMau" name="color" value="@color.MaMau">
+                                        <label for="@color.MaMau">@color.TenMau</label>
+                                    </li>
+                                }
+                            </ul>
+                        </form>
+                    </div>
+
+                    <div class="common-filter">
+                        <div class="head">Price</div>
+                        <div class="price-range-area">
+                            <div id="price-range"></div>
+                            <div class="value-wrapper d-flex">
+                                <div class="price">Price:</div>
+                                <span>$</span>
+                                <div id="lower-value">100</div>
+                                <div class="to">to</div>
+                                <span>$</span>
+                                <div id="upper-value">2000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-md-7">
+                <!-- Start Filter Bar -->
+                <div class="filter-bar d-flex flex-wrap align-items-center">
+                    <div class="sorting">
+                        <select>
+                            <option value="1">Default sorting</option>
+                            <option value="1">Default sorting</option>
+                            <option value="1">Default sorting</option>
+                        </select>
+                    </div>
+                    <div class="sorting mr-auto">
+                        <select>
+                            <option value="1">Show 12</option>
+                            <option value="1">Show 12</option>
+                            <option value="1">Show 12</option>
+                        </select>
+                    </div>
+                    <div class="pagination">
+                        <!-- Nút Previous -->
+                        @if (Model.CurrentPage > 1)
+                        {
+                            <a href="@Url.Action("Category", new { page = Model.CurrentPage - 1 })" class="prev-arrow">
+                                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                            </a>
+                        }
+
+                        <!-- Hiển thị số trang -->
+                        @for (int i = 1; i <= Model.TotalPages; i++)
+                        {
+                            <a href="@Url.Action("Category", new { page = i })" class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+                        }
+
+                        <!-- Nút Next -->
+                        @if (Model.CurrentPage < Model.TotalPages)
+                        {
+                            <a href="@Url.Action("Category", new { page = Model.CurrentPage + 1 })" class="next-arrow">
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        }
+                    </div>
+
+                </div>
+                <!-- End Filter Bar -->
+                <!-- Start Best Seller -->
+                <section class="lattest-product-area pb-40 category-list">
+                    <div class="row" id="product-list">
+
+                        @foreach (var sanpham in Model.SanPhams)
+                        {
+                            <!-- single product -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product" id="@sanpham.IdChiTiet">
+                                    <img class="img-fluid" src="@Url.Content("~/img/product/" + sanpham.HinhAnh)" alt="">
+                                    <div class="product-details">
+                                        <h6></h6> <!-- Hiển thị tên sản phẩm -->
+                                        <div class="price">
+                                            <h6>@sanpham.Gia.ToString("C")</h6> <!-- Định dạng giá thành tiền tệ -->
+                                            <h6 class="l-through">$500.00</h6>
+                                        </div>
+                                        <div class="prd-bottom">
+
+                                            <a href="#" class="social-info">
+                                                <span class="ti-bag"></span>
+                                                <p class="hover-text">add to bag</p>
+                                            </a>
+                                            <a href="#" class="social-info">
+                                                <span class="lnr lnr-heart"></span>
+                                                <p class="hover-text">Wishlist</p>
+                                            </a>
+                                            <a href="#" class="social-info">
+                                                <span class="lnr lnr-sync"></span>
+                                                <p class="hover-text">compare</p>
+                                            </a>
+                                            <a href="#" class="social-info">
+                                                <span class="lnr lnr-move"></span>
+                                                <p class="hover-text">view more</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single product -->
+                        }
+                    </div>
+                </section>
+
+                <!-- End Best Seller -->
+
+            </div>
+        </div>
+    </div>
+    <!-- Start related-product Area -->
+    <section class="related-product-area section_gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="section-title">
+                        <h1>Ưa đãi trong tuần</h1>
+                        <p>
+                            Giảm giá sản phẩm với ưa đãi khủng, nhanh tay chọn mua hàng nào.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="single-related-product d-flex">
+                                <a href="#"><img src="img/r11.jpg" alt=""></a>
+                                <div class="desc">
+                                    <a href="#" class="title">Black lace Heels</a>
+                                    <div class="price">
+                                        <h6>$189.00</h6>
+                                        <h6 class="l-through">$210.00</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="ctg-right">
+                        <a href="#" target="_blank">
+                            <img class="img-fluid d-block mx-auto" src="img/category/c5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End related-product Area -->
+
+</main>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Thêm jQuery UI -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Xử lý khi nhấn vào danh mục
+        $(".category-link").on("click", function () {
+            var maDanhMuc = $(this).data("id");
+
+            $.ajax({
+                url: '@Url.Action("GetProductsByCategory", "Category")',
+                type: 'GET',
+                data: { maDanhMuc: maDanhMuc },
+                success: function (data) {
+                    // Xử lý dữ liệu và cập nhật hiển thị sản phẩm
+                    var productHTML = '';
+                    if (data.length > 0) {
+                        data.forEach(function (product) {
+                            productHTML += '<div class="col-lg-4 col-md-6">';
+                            productHTML += '    <div class="single-product" id="' + product.IdChiTiet + '">';
+                            productHTML += '        <img class="img-fluid" src="/img/product/' + product.HinhAnh + '" alt="">';
+                            productHTML += '        <div class="product-details">';
+                            productHTML += '            <div class="price">';
+                            productHTML += '                <h6>' + product.Gia.toFixed(2) + '</h6>'; // Hiển thị giá
+                            productHTML += '                <h6 class="l-through">$500.00</h6>'; // Hiển thị giá cũ
+                            productHTML += '            </div>';
+                            productHTML += '            <div class="prd-bottom">';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="ti-bag"></span>';
+                            productHTML += '                    <p class="hover-text">add to bag</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-heart"></span>';
+                            productHTML += '                    <p class="hover-text">Wishlist</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-sync"></span>';
+                            productHTML += '                    <p class="hover-text">compare</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-move"></span>';
+                            productHTML += '                    <p class="hover-text">view more</p>';
+                            productHTML += '                </a>';
+                            productHTML += '            </div>';
+                            productHTML += '        </div>';
+                            productHTML += '    </div>';
+                            productHTML += '</div>';
+                        });
+                    } else {
+                        productHTML = '<p>Không có sản phẩm nào.</p>';
+                    }
+                    // Cập nhật phần hiển thị sản phẩm
+                    $("#product-list").html(productHTML);
+                },
+                error: function (xhr, status, error) {
+                    alert("Có lỗi xảy ra khi tải sản phẩm.");
+                }
+            });
+        });
+    });
+
+    $(document).ready(function () {
+        // Lắng nghe sự kiện khi chọn thương hiệu
+        $("input[name='brand']").on("change", function () {
+            var selectedBrand = $(this).val(); // Lấy giá trị thương hiệu đã chọn
+
+            $.ajax({
+                url: '@Url.Action("GetFilterByBrand", "Category")', // Đổi URL theo controller và action của bạn
+                type: 'GET',
+                data: { MaNhan: selectedBrand },
+                success: function (data) {
+                    // Xử lý dữ liệu và cập nhật hiển thị sản phẩm
+                    var productHTML = '';
+                    if (data.length > 0) {
+                        data.forEach(function (product) {
+                            productHTML += '<div class="col-lg-4 col-md-6">';
+                            productHTML += '    <div class="single-product" id="' + product.IdChiTiet + '">';
+                            productHTML += '        <img class="img-fluid" src="/img/product/' + product.HinhAnh + '" alt="">';
+                            productHTML += '        <div class="product-details">';
+                            productHTML += '            <div class="price">';
+                            productHTML += '                <h6>' + product.Gia.toFixed(2) + '</h6>'; // Hiển thị giá
+                            productHTML += '                <h6 class="l-through">$400.00</h6>'; // Hiển thị giá cũ
+                            productHTML += '            </div>';
+                            productHTML += '            <div class="prd-bottom">';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="ti-bag"></span>';
+                            productHTML += '                    <p class="hover-text">add to bag</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-heart"></span>';
+                            productHTML += '                    <p class="hover-text">Wishlist</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-sync"></span>';
+                            productHTML += '                    <p class="hover-text">compare</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-move"></span>';
+                            productHTML += '                    <p class="hover-text">view more</p>';
+                            productHTML += '                </a>';
+                            productHTML += '            </div>';
+                            productHTML += '        </div>';
+                            productHTML += '    </div>';
+                            productHTML += '</div>';
+                        });
+                    } else {
+                        productHTML = '<p>Không có sản phẩm nào cho thương hiệu này.</p>';
+                    }
+                    // Cập nhật phần hiển thị sản phẩm
+                    $("#product-list").html(productHTML);
+                },
+                error: function (xhr, status, error) {
+                    alert("Có lỗi xảy ra khi tải sản phẩm.");
+                }
+            });
+        });
+    });
+
+    $(document).ready(function () {
+    // Lắng nghe sự kiện khi chọn màu
+    $("input[name='color']").on("change", function () {
+        var selectedColor = $(this).val(); // Lấy giá trị màu đã chọn
+
+        $.ajax({
+            url: '@Url.Action("GetFilterByColor", "Category")', // Đổi URL theo controller và action của bạn
+            type: 'GET',
+            data: { MaMau: selectedColor }, // Gửi giá trị MaMau (màu sắc) đã chọn
+            success: function (data) {
+                // Xử lý dữ liệu và cập nhật hiển thị sản phẩm
+                var productHTML = '';
+                if (data.length > 0) {
+                    data.forEach(function (product) {
+                        productHTML += '<div class="col-lg-4 col-md-6">';
+                        productHTML += '    <div class="single-product" id="' + product.IdChiTiet + '">';
+                        productHTML += '        <img class="img-fluid" src="/img/product/' + product.HinhAnh + '" alt="">';
+                        productHTML += '        <div class="product-details">';
+                        productHTML += '            <div class="price">';
+                        productHTML += '                <h6>' + product.Gia.toFixed(2) + '</h6>'; // Hiển thị giá
+                        productHTML += '                <h6 class="l-through">$350.00</h6>'; // Hiển thị giá cũ
+                        productHTML += '            </div>';
+                        productHTML += '            <div class="prd-bottom">';
+                        productHTML += '                <a href="#" class="social-info">';
+                        productHTML += '                    <span class="ti-bag"></span>';
+                        productHTML += '                    <p class="hover-text">add to bag</p>';
+                        productHTML += '                </a>';
+                        productHTML += '                <a href="#" class="social-info">';
+                        productHTML += '                    <span class="lnr lnr-heart"></span>';
+                        productHTML += '                    <p class="hover-text">Wishlist</p>';
+                        productHTML += '                </a>';
+                        productHTML += '                <a href="#" class="social-info">';
+                        productHTML += '                    <span class="lnr lnr-sync"></span>';
+                        productHTML += '                    <p class="hover-text">compare</p>';
+                        productHTML += '                </a>';
+                        productHTML += '                <a href="#" class="social-info">';
+                        productHTML += '                    <span class="lnr lnr-move"></span>';
+                        productHTML += '                    <p class="hover-text">view more</p>';
+                        productHTML += '                </a>';
+                        productHTML += '            </div>';
+                        productHTML += '        </div>';
+                        productHTML += '    </div>';
+                        productHTML += '</div>';
+                    });
+                } else {
+                    productHTML = '<p>Không có sản phẩm nào cho màu sắc này.</p>';
+                }
+                // Cập nhật phần hiển thị sản phẩm
+                $("#product-list").html(productHTML);
+            },
+            error: function (xhr, status, error) {
+                alert("Có lỗi xảy ra khi tải sản phẩm.");
+            }
+        });
+    });
+});
+
+$(document).ready(function () {
+    // Khởi tạo slider cho khoảng giá
+    $("#price-range").slider({
+        range: true,
+        min: 100, // Giá trị tối thiểu
+        max: 5000, // Giá trị tối đa
+        values: [100, 2000], // Giá trị bắt đầu của slider
+        slide: function (event, ui) {
+            // Cập nhật giá trị hiển thị khi người dùng kéo slider
+            $("#lower-value").text(ui.values[0]);
+            $("#upper-value").text(ui.values[1]);
+        },
+        stop: function (event, ui) {
+            // Khi slider dừng, gửi yêu cầu AJAX
+            var minPrice = ui.values[0]; // Giá trị thấp
+            var maxPrice = ui.values[1]; // Giá trị cao
+
+            // Gửi yêu cầu AJAX để lọc sản phẩm theo khoảng giá
+            $.ajax({
+                url: '@Url.Action("GetByPriceRange", "Category")', // Thay đổi URL theo controller và action của bạn
+                type: 'GET',
+                data: { gia1: minPrice, gia2: maxPrice }, // Truyền minPrice và maxPrice vào API
+                success: function (data) {
+                    var productHTML = '';
+                    if (data.length > 0) {
+                        data.forEach(function (product) {
+                            productHTML += '<div class="col-lg-4 col-md-6">';
+                            productHTML += '    <div class="single-product" id="' + product.IdChiTiet + '">';
+                            productHTML += '        <img class="img-fluid" src="/img/product/' + product.HinhAnh + '" alt="">';
+                            productHTML += '        <div class="product-details">';
+                            productHTML += '            <div class="price">';
+                            productHTML += '                <h6>' + product.Gia.toFixed(2) + '</h6>'; // Hiển thị giá
+                            productHTML += '                <h6 class="l-through">$440.00</h6>'; // Hiển thị giá cũ
+                            productHTML += '            </div>';
+                            productHTML += '            <div class="prd-bottom">';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="ti-bag"></span>';
+                            productHTML += '                    <p class="hover-text">add to bag</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-heart"></span>';
+                            productHTML += '                    <p class="hover-text">Wishlist</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-sync"></span>';
+                            productHTML += '                    <p class="hover-text">compare</p>';
+                            productHTML += '                </a>';
+                            productHTML += '                <a href="#" class="social-info">';
+                            productHTML += '                    <span class="lnr lnr-move"></span>';
+                            productHTML += '                    <p class="hover-text">view more</p>';
+                            productHTML += '                </a>';
+                            productHTML += '            </div>';
+                            productHTML += '        </div>';
+                            productHTML += '    </div>';
+                            productHTML += '</div>';
+                        });
+                    } else {
+                        productHTML = '<p>Không có sản phẩm nào trong khoảng giá này.</p>';
+                    }
+                    // Cập nhật lại danh sách sản phẩm
+                    $("#product-list").html(productHTML);
+                },
+                error: function (xhr, status, error) {
+                    alert("Có lỗi xảy ra khi tải sản phẩm.");
+                }
+            });
+        }
+    });
+});
+
+</script>

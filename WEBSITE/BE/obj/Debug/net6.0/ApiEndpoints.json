@@ -1,5 +1,107 @@
 [
   {
+    "ContainingType": "BE.Controllers.BrandController",
+    "Method": "GetAllBrands",
+    "RelativePath": "api/Brand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllBrands"
+  },
+  {
+    "ContainingType": "BE.Controllers.ChitietsanphamDHController",
+    "Method": "GetAllChitietsanphams",
+    "RelativePath": "api/ChitietsanphamDH",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllChitietsanphams"
+  },
+  {
+    "ContainingType": "BE.Controllers.ChitietsanphamDHController",
+    "Method": "GetChitietsanphamsByPriceRange",
+    "RelativePath": "api/ChitietsanphamDH/by-price-range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.ChitietsanphamDHController",
+    "Method": "GetByDanhmuc",
+    "RelativePath": "api/ChitietsanphamDH/byDanhmuc/{maDanhMuc}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maDanhMuc",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.ChitietsanphamDHController",
+    "Method": "GetByColor",
+    "RelativePath": "api/ChitietsanphamDH/filter-by-color/{maMau}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maMau",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.ChitietsanphamDHController",
+    "Method": "GetChitietsanphamByNhanhieu",
+    "RelativePath": "api/ChitietsanphamDH/filter-by-nhanhieu/{maNhan}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maNhan",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.ColorDHController",
+    "Method": "GetAllColors",
+    "RelativePath": "api/ColorDH",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllColors"
+  },
+  {
     "ContainingType": "BE.Controllers.DanhMucController",
     "Method": "GetDanhmucs",
     "RelativePath": "api/DanhMuc",
