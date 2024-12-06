@@ -6,6 +6,6 @@ namespace BE.Interface
     {
         Task<String> addProduct(String Iduser, String idctsp);
         Task<bool> kTracthd(string idUser, string idsp);
-        Task<IEnumerable<Object>> getGiohang(string idUser);
+        Task<IEnumerable<object>> getGiohang(string idUser);
     }
 }

@@ -160,6 +160,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Controllers\InformationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -168,6 +169,7 @@
     <Compile Include="Model\danhgia.cs" />
     <Compile Include="Model\NhanhieuH.cs" />
     <Compile Include="Model\SanphamH.cs" />
+    <Compile Include="Model\GioHangItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
@@ -498,6 +500,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shop\cart.cshtml" />
     <Content Include="Views\Account\Information.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="scss\.DS_Store" />

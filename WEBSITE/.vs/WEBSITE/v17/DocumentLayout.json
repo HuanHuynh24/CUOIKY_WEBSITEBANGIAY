@@ -1,29 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\website new\\WEBSITE\\",
+  "WorkspaceRootPath": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\fe\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\fe\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\be\\repository\\chitiethoadonrepositoryh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\repository\\chitiethoadonrepositoryh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\be\\interface\\ichitiethoadonh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\interface\\ichitiethoadonh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|D:\\website new\\WEBSITE\\fe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|D:\\website new\\WEBSITE\\fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\repository\\userrepositoryk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\be\\repository\\userrepositoryk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\repository\\userrepositoryk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\be\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\website new\\website\\be\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|d:\\webbangiay\\cuoiky_websitebangiay\\website\\be\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,15 +58,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 148,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\ShopController.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "FE\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:02:34.938Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "cart.cshtml",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Shop\\cart.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Shop\\cart.cshtml",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Shop\\cart.cshtml",
+              "RelativeToolTip": "FE\\Views\\Shop\\cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:01:23.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FE\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T05:50:22.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChitiethoadonRepositoryH.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Repository\\ChitiethoadonRepositoryH.cs",
+              "RelativeDocumentMoniker": "BE\\Repository\\ChitiethoadonRepositoryH.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Repository\\ChitiethoadonRepositoryH.cs",
+              "RelativeToolTip": "BE\\Repository\\ChitiethoadonRepositoryH.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T05:46:37.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IChitiethoadonH.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Interface\\IChitiethoadonH.cs",
+              "RelativeDocumentMoniker": "BE\\Interface\\IChitiethoadonH.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Interface\\IChitiethoadonH.cs",
+              "RelativeToolTip": "BE\\Interface\\IChitiethoadonH.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T05:46:21.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T05:46:02.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\FE\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "FE\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\FE\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\AccountController.cs",
               "RelativeToolTip": "FE\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwDQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -50,11 +171,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\FE\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\website new\\WEBSITE\\FE\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "FE\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -62,23 +183,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "UserRepositoryK.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Repository\\UserRepositoryK.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Repository\\UserRepositoryK.cs",
               "RelativeDocumentMoniker": "BE\\Repository\\UserRepositoryK.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Repository\\UserRepositoryK.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Repository\\UserRepositoryK.cs",
               "RelativeToolTip": "BE\\Repository\\UserRepositoryK.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:40:19.318Z"
+              "WhenOpened": "2024-12-06T02:40:19.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Program.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Program.cs",
               "RelativeDocumentMoniker": "BE\\Program.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Program.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Program.cs",
               "RelativeToolTip": "BE\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,27 +209,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "HoaDonController.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Controllers\\HoaDonController.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Controllers\\HoaDonController.cs",
               "RelativeDocumentMoniker": "BE\\Controllers\\HoaDonController.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Controllers\\HoaDonController.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Controllers\\HoaDonController.cs",
               "RelativeToolTip": "BE\\Controllers\\HoaDonController.cs",
               "ViewState": "AgIAAJYAAAAAAAAAAAAowBcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:32:16.057Z"
+              "WhenOpened": "2024-12-06T02:32:16.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "SanPhamController.cs",
-              "DocumentMoniker": "D:\\website new\\WEBSITE\\BE\\Controllers\\SanPhamController.cs",
+              "DocumentMoniker": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "BE\\Controllers\\SanPhamController.cs",
-              "ToolTip": "D:\\website new\\WEBSITE\\BE\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\WebBanGiay\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Controllers\\SanPhamController.cs",
               "RelativeToolTip": "BE\\Controllers\\SanPhamController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:31:17.291Z"
+              "WhenOpened": "2024-12-06T02:31:17.291Z",
+              "EditorCaption": ""
             }
           ]
         }
