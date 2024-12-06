@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewBag.Title = "cart";
+}
+<main>
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>Shopping Cart</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="category.html">Cart</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <!--================Cart Area =================-->
+    <section class="cart_area">
+        <div class="container">
+            <div class="cart_inner">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tên sản phẩm</th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Số lượng</th>
+                                <th scope="col">Tổng</th>
+                                <th scope="col" style="text-align:center">Đơn vị</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @model List<FE.Model.GioHangItem>
+                            @{
+                                if (Request.Cookies["idUser"] == null)
+                                {
+                                    <p>@TempData["THONGBAO"]</p>
+                                }
+                                else
+                                if (Model != null)
+                                {
+                                    foreach (var item in Model)
+                                    {
+                                        <tr id="col">
+                                            <td>
+                                                <div class="media">
+                                                    <div class="d-flex">
+                                                        <img src="~/img/product/@(item.HinhAnh)" alt="" style="width: 150px; height: 150px; border-radius: 8px;">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <p>@item.TenSanPham - @item.Mau</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <h5>@((item.Gia - item.Gia * ((decimal)item.Makhuyenmai / 100)).ToString("F2")) VNĐ<span style="text-decoration: line-through; color: #cccccc; margin-bottom: 0; margin-left:20px;">@item.Gia VNĐ</span></h5>
+                                            </td>
+                                            <td>
+                                                <div class="product_count">
+                                                    <div>
+                                                        <input type="text" name="qty" id="sst-@item.IdCthd" maxlength="2" value="1" title="Quantity:" class="input-text qty">
+                                                        <button onclick="increaseQuantity('sst-@item.IdCthd', 'error-@item.IdCthd',  @item.Soluongton, '@((item.Gia - item.Gia * ((decimal)item.Makhuyenmai / 100)).ToString("F2"))', 'sum-@item.IdCthd')" class="increase items-count" type="button">
+                                                            <i class="lnr lnr-chevron-up"></i>
+                                                        </button>
+                                                        <button onclick="decreaseQuantity('sst-@item.IdCthd', 'error-@item.IdCthd', '@((item.Gia - item.Gia * ((decimal)item.Makhuyenmai / 100)).ToString("F2"))', 'sum-@item.IdCthd')" class="reduced items-count" type="button">
+                                                            <i class="lnr lnr-chevron-down"></i>
+                                                        </button>
+                                                    </div>
+                                                    <p id="error-@item.IdCthd" style="color: red; display: none; margin-top: 5px; position:absolute;">Số lượng trong kho không quá @item.Soluongton!</p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <h5 style="text-align:center" class="valueMoney" id='sum-@item.IdCthd'>@((item.Gia - item.Gia * ((decimal)item.Makhuyenmai / 100)).ToString("F2"))</h5>
+                                            </td>
+                                            <td>
+                                                 <h5>VNĐ</h5>
+                                            </td>
+                                        </tr>
+                                    }
+
+
+                                }
+                                else
+                                {
+                                    <p>Bạn chưa có sản phẩm nào trong giỏ hàng</p>
+                                }
+                            }
+
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    <h5>Tổng hoá đơn</h5>
+                                </td>
+                                <td>
+                                    <h5 id="totalAmount"></h5>
+                                </td>
+                            </tr>
+                            <tr class="shipping_area">
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    <h5>Shipping</h5>
+                                </td>
+                                <td>
+                                    <div class="shipping_box">
+                                        <ul class="list">
+                                            <li><a href="#">Flat Rate: $5.00</a></li>
+                                            <li><a href="#">Free Shipping</a></li>
+                                            <li><a href="#">Flat Rate: $10.00</a></li>
+                                            <li class="active"><a href="#">Local Delivery: $2.00</a></li>
+                                        </ul>
+                                        <h6>Calculate Shipping <i class="fa fa-caret-down" aria-hidden="true"></i></h6>
+                                        <select class="shipping_select">
+                                            <option value="1">Bangladesh</option>
+                                            <option value="2">India</option>
+                                            <option value="4">Pakistan</option>
+                                        </select>
+                                        <select class="shipping_select">
+                                            <option value="1">Select a State</option>
+                                            <option value="2">Select a State</option>
+                                            <option value="4">Select a State</option>
+                                        </select>
+                                        <input type="text" placeholder="Postcode/Zipcode">
+                                        <a class="gray_btn" href="#">Update Details</a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="out_button_area">
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                    <div class="checkout_btn_inner d-flex align-items-center">
+                                        <a class="gray_btn" href="#">Continue Shopping</a>
+                                        <a class="primary-btn" href="#">Proceed to checkout</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Cart Area =================-->
+
+</main>
+<script>
+    // Hàm tăng số lượng
+    function increaseQuantity(inputId, errorId, soluong, gia, tonggia) {
+        var result = document.getElementById(inputId);
+        var errorMessage = document.getElementById(errorId);
+        var sum = document.getElementById(tonggia)
+        var sst = parseInt(result.value);
+
+        if (!isNaN(sst) && sst < soluong) {
+            result.value = sst + 1;
+            errorMessage.style.display = 'none';
+            console.log(tonggia, parseFloat(gia))
+            sum.innerText = ((parseInt(result.value) * parseFloat(gia.replace(",", "."))).toFixed(2)).replace(".", ","); 
+        } else {
+            errorMessage.style.display = 'block'; 
+        }
+        updateTotalAmount()
+    }
+
+    // Hàm giảm số lượng
+    function decreaseQuantity(inputId, errorId, gia, tonggia) {
+        var result = document.getElementById(inputId);
+        var errorMessage = document.getElementById(errorId);
+        var sum = document.getElementById(tonggia)
+        var sum = document.getElementById(tonggia)
+        var sst = parseInt(result.value);
+
+        if (!isNaN(sst) && sst > 1) {
+            result.value = sst - 1;
+            errorMessage.style.display = 'none'; 
+            sum.innerText = ((parseInt(result.value) * parseFloat(gia.replace(",", "."))).toFixed(2)).replace(".",","); 
+
+        }
+        updateTotalAmount()
+    }
+  function updateTotalAmount() {
+    var totalAmount = 0;
+    
+    var rows = document.querySelectorAll('#col'); // Lấy tất cả các hàng trong bảng
+    rows.forEach(function(row) {
+        var priceElement = row.querySelector(".valueMoney"); // Lấy thẻ giá của sản phẩm
+        console.log(parseFloat(priceElement.innerText.replace(" VNĐ", "").replace(",", ".")))
+        if (priceElement) {
+            var price = parseFloat(priceElement.innerText.replace(" VNĐ", "").replace(",", ".")); 
+            
+            totalAmount += price;
+        }
+    });
+
+    document.getElementById('totalAmount').innerText = "Tổng: " + totalAmount.toFixed(2) + " VNĐ";
+    }
+   
+</script>
