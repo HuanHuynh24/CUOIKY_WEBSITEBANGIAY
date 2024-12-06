@@ -1,6 +1,7 @@
 using BE.Models;
 using BE.Model;
 using Microsoft.EntityFrameworkCore;
+using BE.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,18 @@ builder.Services.AddDbContextFactory<db_websitebanhangContext>(options =>
 
 // Đăng ký repository với Dependency Injection
 builder.Services.AddScoped<ThongkedoanhthuRepositoryADONET>();
-
+//Ngọc Huân
+builder.Services.AddScoped<SanphamH>();
+//Vĩ Khương
+builder.Services.AddScoped<IUserRepositoryK, UserRepositoryK>();
+//Bá Huân
+builder.Services.AddScoped<DanhMucRepository>();
+builder.Services.AddScoped<ThuongHieuRepository>();
+builder.Services.AddScoped<KhuyenMaiRepository>();
+builder.Services.AddScoped<TrangThaiRepository>();
+builder.Services.AddScoped<ColorRepository>();
+builder.Services.AddScoped<SizeRepository>();
+builder.Services.AddScoped<SanPhamRepository>();
 // Cấu hình CORS để cho phép tất cả các nguồn gốc
 builder.Services.AddCors(options =>
 {
