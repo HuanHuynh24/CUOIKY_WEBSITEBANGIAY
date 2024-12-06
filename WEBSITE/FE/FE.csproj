@@ -160,12 +160,17 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\InformationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Model\BlogK.cs" />
+    <Compile Include="Model\ChitietsanphamH.cs" />
+    <Compile Include="Model\CommentK.cs" />
+    <Compile Include="Model\DanhMucK.cs" />
+    <Compile Include="Model\NhanhieuH.cs" />
+    <Compile Include="Model\SanphamH.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Model\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -206,6 +211,14 @@
     <Content Include="img\banner\banner-bg.jpg" />
     <Content Include="img\banner\banner-img.png" />
     <Content Include="img\banner\common-banner.jpg" />
+    <Content Include="img\banner\giay-trang-1.jpg" />
+    <Content Include="img\banner\giay-trang-4.png" />
+    <Content Include="img\banner\giay-trang.png" />
+    <Content Include="img\banner\giay-vang.png" />
+    <Content Include="img\banner\giay-xanh-2.png" />
+    <Content Include="img\banner\giay-xanh.jpg" />
+    <Content Include="img\banner\md1-xanh.png" />
+    <Content Include="img\banner\md1.png" />
     <Content Include="img\banner\next.png" />
     <Content Include="img\banner\prev.png" />
     <Content Include="img\blog\add.jpg" />
@@ -223,6 +236,10 @@
     <Content Include="img\blog\causes\causes-2.jpg" />
     <Content Include="img\blog\causes\causes-3.jpg" />
     <Content Include="img\blog\feature-img1.jpg" />
+    <Content Include="img\blog\giaycaogot1.jpg" />
+    <Content Include="img\blog\giaycongso1.jpg" />
+    <Content Include="img\blog\giaythethao1.jpg" />
+    <Content Include="img\blog\giay_the_thao_nam2.jpg" />
     <Content Include="img\blog\latest-post\l-post-1.jpg" />
     <Content Include="img\blog\latest-post\l-post-2.jpg" />
     <Content Include="img\blog\latest-post\l-post-3.jpg" />
@@ -233,6 +250,7 @@
     <Content Include="img\blog\main-blog\m-blog-4.jpg" />
     <Content Include="img\blog\main-blog\m-blog-5.jpg" />
     <Content Include="img\blog\next.jpg" />
+    <Content Include="img\blog\nike3.jpg" />
     <Content Include="img\blog\popular-post\post1.jpg" />
     <Content Include="img\blog\popular-post\post2.jpg" />
     <Content Include="img\blog\popular-post\post3.jpg" />
@@ -240,6 +258,7 @@
     <Content Include="img\blog\post-img1.jpg" />
     <Content Include="img\blog\post-img2.jpg" />
     <Content Include="img\blog\prev.jpg" />
+    <Content Include="img\blog\sandal1.jpg" />
     <Content Include="img\brand\1.png" />
     <Content Include="img\brand\2.png" />
     <Content Include="img\brand\3.png" />
@@ -299,6 +318,9 @@
     <Content Include="img\l8.jpg" />
     <Content Include="img\login.jpg" />
     <Content Include="img\logo.png" />
+    <Content Include="img\md-2-xanh.png" />
+    <Content Include="img\md1-xanh.png" />
+    <Content Include="img\md1.png" />
     <Content Include="img\men-bg.jpg" />
     <Content Include="img\ob1.jpg" />
     <Content Include="img\ob2.jpg" />
@@ -359,6 +381,33 @@
     <Content Include="img\organic-food\u3.png" />
     <Content Include="img\product\card.jpg" />
     <Content Include="img\product\e-p1.png" />
+    <Content Include="img\product\giay-tim-1.jpg" />
+    <Content Include="img\product\giay-tim-2.png" />
+    <Content Include="img\product\giay-tim-3.jpg" />
+    <Content Include="img\product\giay-trang-1.jpg" />
+    <Content Include="img\product\giay-trang-2.jpg" />
+    <Content Include="img\product\giay-trang-3.jpg" />
+    <Content Include="img\product\giay-trang-4.png" />
+    <Content Include="img\product\giay-trang-5.png" />
+    <Content Include="img\product\giay-trang-6.png" />
+    <Content Include="img\product\giay-trang-7.png" />
+    <Content Include="img\product\giay-trang.png" />
+    <Content Include="img\product\giay-vang-1.png" />
+    <Content Include="img\product\giay-vang-2.png" />
+    <Content Include="img\product\giay-vang-3.jpg" />
+    <Content Include="img\product\giay-vang-4.jpg" />
+    <Content Include="img\product\giay-vang-5.jpg" />
+    <Content Include="img\product\giay-vang-6.jpg" />
+    <Content Include="img\product\giay-vang.png" />
+    <Content Include="img\product\giay-xanh-2.png" />
+    <Content Include="img\product\giay-xanh-3.jpg" />
+    <Content Include="img\product\giay-xanh-4.png" />
+    <Content Include="img\product\giay-xanh-5.png" />
+    <Content Include="img\product\giay-xanh-6.png" />
+    <Content Include="img\product\giay-xanh.jpg" />
+    <Content Include="img\product\md-2-xanh.png" />
+    <Content Include="img\product\md1-xanh.png" />
+    <Content Include="img\product\md1.png" />
     <Content Include="img\product\next.png" />
     <Content Include="img\product\p1.jpg" />
     <Content Include="img\product\p2.jpg" />
@@ -429,6 +478,8 @@
     <Content Include="img\.DS_Store" />
     <Content Include="img\organic-food\.DS_Store" />
     <Content Include="js\.DS_Store" />
+    <Content Include="img\banner\giay-xanh-1.webp" />
+    <Content Include="img\product\giay-tim.webp" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -451,8 +502,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\Information.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
@@ -472,6 +521,7 @@
     <Content Include="scss\theme\_reset.scss" />
     <Content Include="scss\theme\_variables.scss" />
     <Content Include="Views\Blog\Blog.cshtml" />
+    <Content Include="Views\Blog\BlogDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
