@@ -1,4 +1,5 @@
-﻿using FE.Model;
+﻿
+using FE.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -60,6 +61,8 @@ namespace FE.Controllers
         {
             // Đảm bảo chuỗi mã sản phẩm không vượt quá 8 ký tự
             masanpham = masanpham.Length > 8 ? masanpham.Substring(0, 8) : masanpham;
+            
+
 
             // Gửi yêu cầu GET đến API
             var response = await client.GetAsync($"http://localhost:5288/api/chitietsanpham/chitietsanpham?masanpham={masanpham}&color={macolor}&size={masize}");
@@ -75,20 +78,33 @@ namespace FE.Controllers
 
                 // Kiểm tra và lấy thông tin sản phẩm
                 var sanpham = data?.data?.chitietSanpham?.maSanphamNavigation;
+                var size = data?.data?.chitietSanpham?.maSizeNavigation;
                 var chitiet = data?.data?.chitietSanpham;
+                var hinhanhs = data?.data?.hinhanhs;
                 var reviews = data?.data?.reviews;
                 List<danhgia> danhGiaList = new List<danhgia>();
-                if (reviews != null)
-                {
+                List<Hinhanh> hinhAnhList = new List<Hinhanh>();
+
                     // Chuyển từ dynamic thành List<DanhGia>
                     danhGiaList = JsonConvert.DeserializeObject<List<danhgia>>(reviews.ToString());
                     ViewBag.danhgial = danhGiaList;
-                }
+           
+              
+                    // Chuyển từ dynamic thành List<DanhGia>
+                    hinhAnhList = JsonConvert.DeserializeObject<List<Hinhanh>>(hinhanhs.ToString());
+                    ViewBag.hinhanhl = hinhAnhList;
+                
 
                 ViewBag.tensanpham = sanpham?.tenSanpham;
                 ViewBag.mota = sanpham?.moTa;
                 ViewBag.gia = chitiet.gia;
                 ViewBag.masapham = sanpham.maSanpham;
+
+
+                ViewBag.masize=size.maSize;
+                ViewBag.chieudai = size.chieudai;
+                ViewBag.chieurong = size.chieurong;
+                ViewBag.chieucao = size.chieucao;
 
 
                 // Trả về View với thông tin sản phẩm

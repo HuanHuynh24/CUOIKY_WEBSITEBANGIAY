@@ -21,9 +21,29 @@ namespace BE.Controllers
             _thongkeRepository = thongkeRepository;
         }
 
-        // Lấy thống kê doanh thu theo loại, năm và tháng
+        // API lấy top 10 sản phẩm bán chạy nhất
+        [HttpGet("getbestsanpham")]
+        public async Task<ActionResult<IEnumerable<Thongke>>> GetTop10BestSellingProducts()
+        {
+            try
+            {
+                var list = await _thongkeRepository.GetTop10BestSellingProductsAsync();
+                if (list == null || !list.Any())
+                {
+                    return NotFound(new { EC = 1, Message = "Không tìm thấy sản phẩm bán chạy." });
+                }
+
+                return Ok(new { EC = 0, Data = list });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { EC = 2, Message = "Lỗi server: " + ex.Message });
+            }
+        }
+
+        // API lấy thống kê doanh thu theo loại, năm và tháng
         [HttpGet("thongke")]
-        public async Task<ActionResult<IEnumerable<Thongke>>> thongke([FromQuery] string type, [FromQuery] int year, [FromQuery] int month)
+        public async Task<ActionResult<IEnumerable<Thongke>>> GetRevenueStatistics([FromQuery] string type, [FromQuery] int year, [FromQuery] int month)
         {
             try
             {
@@ -33,7 +53,7 @@ namespace BE.Controllers
                 // Kiểm tra nếu không có dữ liệu
                 if (list == null || !list.Any())
                 {
-                    return Ok(new { EC = 1, Message = "Không tìm thấy thống kê doanh thu cho loại sản phẩm này." });
+                    return NotFound(new { EC = 1, Message = "Không tìm thấy thống kê doanh thu cho loại sản phẩm này." });
                 }
 
                 return Ok(new { EC = 0, Data = list });
@@ -41,7 +61,7 @@ namespace BE.Controllers
             catch (Exception ex)
             {
                 // Xử lý lỗi và trả về thông báo lỗi server
-                return Ok(new { EC = 2, Message = "Lỗi server: " + ex.Message });
+                return StatusCode(500, new { EC = 2, Message = "Lỗi server: " + ex.Message });
             }
         }
     }

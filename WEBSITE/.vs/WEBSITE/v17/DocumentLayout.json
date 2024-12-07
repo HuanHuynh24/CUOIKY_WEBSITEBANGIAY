@@ -3,19 +3,32 @@
   "WorkspaceRootPath": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|e:\\tam_webck\\cuoiky_websitebangiay\\website\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|e:\\tam_webck\\cuoiky_websitebangiay\\website\\fe\\js\\search.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\js\\search.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|e:\\tam_webck\\cuoiky_websitebangiay\\website\\fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\chitietsanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\informationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5838272-0DC7-4582-8A8A-22FCE9729DB4}|FE\\FE.csproj|solutionrelative:fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|e:\\tam_webck\\cuoiky_websitebangiay\\website\\be\\repository\\sanphamh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\repository\\sanphamh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|e:\\tam_webck\\cuoiky_websitebangiay\\website\\be\\be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TAM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Bcl.AsyncInterfaces.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|e:\\tam_webck\\cuoiky_websitebangiay\\website\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D063B96E-B303-4424-8546-782614C6E412}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,77 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 148,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FE\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T11:19:49.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FE\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T20:34:45.472Z",
+              "Title": "search.js",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\js\\search.js",
+              "RelativeDocumentMoniker": "FE\\js\\search.js",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\js\\search.js",
+              "RelativeToolTip": "FE\\js\\search.js",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwF8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-07T10:47:42.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BE.csproj",
-              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\BE.csproj",
-              "RelativeDocumentMoniker": "BE\\BE.csproj",
-              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\BE.csproj",
-              "RelativeToolTip": "BE\\BE.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-03T19:48:27.831Z"
+              "Title": "Chitietsanpham.cshtml",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Home\\Chitietsanpham.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\Chitietsanpham.cshtml",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Views\\Home\\Chitietsanpham.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\Chitietsanpham.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T10:35:51.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwFYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:56:53.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Microsoft.Bcl.AsyncInterfaces.targets",
-              "DocumentMoniker": "C:\\Users\\TAM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Bcl.AsyncInterfaces.targets",
-              "ToolTip": "C:\\Users\\TAM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\buildTransitive\\netcoreapp2.0\\Microsoft.Bcl.AsyncInterfaces.targets",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-03T16:27:36.711Z"
+              "Title": "InformationController.cs",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\InformationController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\InformationController.cs",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\InformationController.cs",
+              "RelativeToolTip": "FE\\Controllers\\InformationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:56:53.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SanphamH.cs",
-              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Repository\\SanphamH.cs",
-              "RelativeDocumentMoniker": "BE\\Repository\\SanphamH.cs",
-              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Repository\\SanphamH.cs",
-              "RelativeToolTip": "BE\\Repository\\SanphamH.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\BlogController.cs",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\FE\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "FE\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:12:27.037Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 182,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "WhenOpened": "2024-12-07T08:56:52.489Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Program.cs",
+              "RelativeDocumentMoniker": "BE\\Program.cs",
+              "ToolTip": "E:\\tam_webck\\CUOIKY_WEBSITEBANGIAY\\WEBSITE\\BE\\Program.cs",
+              "RelativeToolTip": "BE\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:38:31.125Z"
             }
           ]
         }

@@ -6,8 +6,6 @@
 }
 
 
-
-
 <main>
 
     <div class="chitietsanpham">
@@ -15,15 +13,13 @@
             <div class="row s_product_inner">
                 <div class="col-lg-6">
                     <div class="s_Product_carousel">
-                        <div class="single-prd-item">
-                            <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
-                        </div>
-                        <div class="single-prd-item">
-                            <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
-                        </div>
-                        <div class="single-prd-item">
-                            <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
-                        </div>
+                        @foreach (var item in ViewBag.hinhanhl)
+                        {
+                            <div class="single-prd-item" data-mamau="@item.MaMau"  onclick="window.location.href='/Home/ChitietSanpham?masanpham=@ViewBag.masanpham&macolor=@item.MaMau&masize=@ViewBag.masize'">
+                                <img class="img-fluid" src="~/img/product/@item.Urlhinh" alt="">
+                            </div>
+                            
+                        }
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
@@ -45,7 +41,7 @@
                                     <button onclick="decreaseValue('sst_qty')" class="reduced items-count" type="button">
                                         <i class="lnr lnr-chevron-down"></i>
                                     </button>
-                                    <input type="text" name="qty" id="sst_qty" maxlength="12" value="1" title="Quantity:" class="input-text qty">
+                                    <input type="text" name="qty" id="sst_qty" maxlength="12" value="1" title="Quantity:" class="input-text qty" change="" >
                                     <button onclick="increaseValue('sst_qty')" class="increase items-count" type="button">
                                         <i class="lnr lnr-chevron-up"></i>
                                     </button>
@@ -65,8 +61,6 @@
                                 </div>
                             </div>
                         </div>
-
-
 
                         <div class="card_area d-flex align-items-center">
                             <a class="primary-btn" href="#">Add to Cart</a>
@@ -128,66 +122,34 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <h5>Width</h5>
+                                            <h5>Size</h5>
                                         </td>
                                         <td>
-                                            <h5>128mm</h5>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h5>Height</h5>
-                                        </td>
-                                        <td>
-                                            <h5>508mm</h5>
+                                            <h5 id="masize">@ViewBag.masize</h5>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h5>Depth</h5>
+                                            <h5>Chiều rộng</h5>
                                         </td>
                                         <td>
-                                            <h5>85mm</h5>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h5>Weight</h5>
-                                        </td>
-                                        <td>
-                                            <h5>52gm</h5>
+                                            <h5>@ViewBag.chieurong</h5>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h5>Quality checking</h5>
+                                            <h5>Chiều dài</h5>
                                         </td>
                                         <td>
-                                            <h5>yes</h5>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h5>Freshness Duration</h5>
-                                        </td>
-                                        <td>
-                                            <h5>03days</h5>
+                                            <h5>@ViewBag.chieudai</h5>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h5>When packeting</h5>
+                                            <h5>Chiều cao</h5>
                                         </td>
                                         <td>
-                                            <h5>Without touch of hand</h5>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <h5>Each Box contains</h5>
-                                        </td>
-                                        <td>
-                                            <h5>60pcs</h5>
+                                            <h5>@ViewBag.chieucao</h5>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -198,57 +160,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="comment_list">
-                                    <div class="review_item">
-                                        <div class="media">
-                                            <div class="d-flex">
-                                                <img src="img/product/review-1.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Blake Ruiz</h4>
-                                                <h5>12th Feb, 2018 at 05:56 pm</h5>
-                                                <a class="reply_btn" href="#">Reply</a>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                            commodo
-                                        </p>
-                                    </div>
-                                    <div class="review_item reply">
-                                        <div class="media">
-                                            <div class="d-flex">
-                                                <img src="img/product/review-2.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Blake Ruiz</h4>
-                                                <h5>12th Feb, 2018 at 05:56 pm</h5>
-                                                <a class="reply_btn" href="#">Reply</a>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                            commodo
-                                        </p>
-                                    </div>
-                                    <div class="review_item">
-                                        <div class="media">
-                                            <div class="d-flex">
-                                                <img src="img/product/review-3.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <h4>Blake Ruiz</h4>
-                                                <h5>12th Feb, 2018 at 05:56 pm</h5>
-                                                <a class="reply_btn" href="#">Reply</a>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                            commodo
-                                        </p>
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -363,7 +275,10 @@
             var value = parseInt(result.value);
             if (!isNaN(value)) {
                 result.value = value + 1;
+                navigateToProduct();
             }
+
+           
         }
 
         // Hàm giảm giá trị
@@ -372,7 +287,9 @@
             var value = parseInt(result.value);
             if (!isNaN(value) && value > 0) {
                 result.value = value - 1;
+                 navigateToProduct();
             }
+           
         }
 
         $(document).ready(function () {
@@ -469,8 +386,17 @@
             }
         }
 
-    </script>
 
+        function navigateToProduct() {
+         console.log("thay đổi chi tiết")
+     const mamau = element.getAttribute('data-mamau');
+    const size = document.getElementById('sst_size').value;
+    const masanpham ='@ViewBag.masanpham'; // Thay bằng giá trị thực tế
+    const macolor = mamau ;         // Thay bằng giá trị thực tế
+    window.location.href = `/Home/ChitietSanpham?masanpham=${masanpham}&macolor=${macolor}&masize=${size}`;
+    }
+    </script>
+ 
 
 </main>
 

@@ -2,7 +2,8 @@
 using System.Linq;
 using System.Threading.Tasks;
 using System;
-using BE.Object;
+
+
 using BE.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -121,6 +122,16 @@ namespace BE.Model
                 if (chitietSanphaml == null)
                     return null;
 
+                var listhinh = await (from ctsanpham in _context.Chitietsanphams
+                                      where ctsanpham.MaSanpham == masanpham
+                                      select new Hinhanh
+                                      {
+                                          MaMau = ctsanpham.MaMau,
+                                          Urlhinh = ctsanpham.HinhAnh
+                                      }).ToListAsync();
+
+                                   
+
                 // Fetch reviews (multiple objects)
                 var danhgiaSanpham = await (from danhgia1 in _context.Reviews
                                             join user in _context.Users
@@ -139,6 +150,7 @@ namespace BE.Model
                 {
 
                     ChitietSanpham = chitietSanphaml.ChitietSanpham,
+                    hinhanhs=listhinh,
                     Reviews = danhgiaSanpham
                 };
                 return a;

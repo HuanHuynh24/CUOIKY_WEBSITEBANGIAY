@@ -413,4 +413,4 @@ E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.AssemblyRefere
 E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.CoreCompileInputs.cache
 E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.dll
 E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.pdb
-E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.Up2Date
+E:\tam_webck\CUOIKY_WEBSITEBANGIAY\WEBSITE\FE\obj\Debug\FE.csproj.CopyComplete
